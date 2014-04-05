@@ -2,3 +2,8 @@ melody.sublime-project
 melody.sublime-workspace
 Gemfile
 Gemfile.lock
+assets/node_modules
+assets/.sass-cache
+_site/assets/node_modules
+_site/assets/.sass-cache
+_site/assets/src
