@@ -634,6 +634,7 @@ main .doc-section .split-code .highlight, main .doc-section .split-code pre {
 }
 main .doc-section .split-code pre {
   padding: 0 1.5em;
+  margin: 0 -1.5em;
 }
 main .golden-ratio-split-example {
   height: auto;
