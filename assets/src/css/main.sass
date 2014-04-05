@@ -1,0 +1,95 @@
+@import syntax
+@import melody/melody
+
+
+
+
+
+/* Colors
+   ============================== */
+$red: #C14D4D
+$dark: #282828
+$dred: #742F2F
+
+
+
+
+
+/* Layout
+   ============================== */
+body
+  +split(1,1.618)
+  color: $dark
+
+  .logo, .top, main
+    padding: 1.5em
+
+.logo
+  background: $red
+
+  h2
+    margin-bottom: 0
+
+    a
+      color: white
+      text-decoration: none
+
+.top
+  h1
+    margin-bottom: 0
+
+.sidebar
+  +split(1,1.618)
+
+  a
+    color: inherit
+    display: block
+    margin-bottom: .75em
+    text-decoration: none
+    font-family: $secondary
+    font-weight: 600
+
+    &.current
+      text-decoration: underline
+
+  .primary, .secondary
+    padding: 1.5em
+    height: calc(100vh - 6em)
+
+  .primary
+    background: $dark
+    color: white
+
+  .secondary
+    background: $dred
+    color: white
+
+main
+  height: calc(100vh - 6em)
+  overflow: auto
+
+  .doc-section
+    padding: 1.5em 0
+
+  .golden-ratio-split-example
+    +split(1,1.618)
+
+  .quarters-split-example
+    +split(3,1)
+
+  .grid-example
+    +grid(4, 2, 1)
+
+  .golden-ratio-split-example,
+  .quarters-split-example,
+  .grid-example
+    margin-bottom: 1.5em
+
+    & > *
+      text-align: center
+      background: $shade
+      padding: 1.5em
+
+    @for $i from 1 through 12
+      & > :nth-child(#{$i})
+        background: rgba($dark, (.05 * $i))

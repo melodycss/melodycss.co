@@ -1,0 +1,9 @@
+name: Melody
+url: http://melodycss.co
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+pygments: true
+permalink: /:title
+exclude: ['.gitignore', 'melody.sublime-project', 'melody.sublime-workspace', 'assets/node_modules', 'assets/.sass_cache', '.git', 'Gemfile', 'Gemfile.lock', 'assets/src', 'assets/gulpfile.js', 'assets/README.md']
+encoding: utf-8
