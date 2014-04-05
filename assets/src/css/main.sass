@@ -71,6 +71,18 @@ main
   .doc-section
     padding: 1.5em 0
 
+    .split-code
+      margin: 0 -1.5em 1.5em
+      padding: 1.5em
+      background: $shade
+      +grid(2, 1, 1)
+
+      .highlight, pre
+        background: transparent
+
+      pre
+        padding: 0 1.5em
+
   .golden-ratio-split-example
     +split(1,1.618)
 

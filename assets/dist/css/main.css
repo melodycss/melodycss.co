@@ -606,6 +606,35 @@ main {
 main .doc-section {
   padding: 1.5em 0;
 }
+main .doc-section .split-code {
+  margin: 0 -1.5em 1.5em;
+  padding: 1.5em;
+  background: rgba(40, 40, 40, 0.05);
+  height: auto;
+  overflow: hidden;
+}
+main .doc-section .split-code > * {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  float: left;
+}
+@media (min-width: 24em) {
+  main .doc-section .split-code > * {
+    width: 100%;
+  }
+}
+@media (min-width: 36em) {
+  main .doc-section .split-code > * {
+    width: 50%;
+  }
+}
+main .doc-section .split-code .highlight, main .doc-section .split-code pre {
+  background: transparent;
+}
+main .doc-section .split-code pre {
+  padding: 0 1.5em;
+}
 main .golden-ratio-split-example {
   height: auto;
   overflow: hidden;
