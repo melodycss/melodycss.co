@@ -614,7 +614,7 @@ body .logo, body .top, body main {
 .sidebar a {
   color: inherit;
   display: block;
-  margin-bottom: 0.75em;
+  margin-bottom: 1.5em;
   text-decoration: none;
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
@@ -640,6 +640,10 @@ main {
   height: -webkit-calc(100vh - 6em);
   height: calc(100vh - 6em);
   overflow: auto;
+}
+main pre {
+  margin: 0 -1.71429em 1.71429em -2.14286em;
+  padding: 1.71429em 1.71429em 1.71429em 2.14286em;
 }
 main .dev-message {
   height: auto;
@@ -684,11 +688,11 @@ main .doc-section .split-code {
   }
   main .doc-section .split-note > :nth-child(2n+1),
   main .doc-section .split-code > :nth-child(2n+1) {
-    width: 19.09855%;
+    width: 12.73237%;
   }
   main .doc-section .split-note > :nth-child(2n),
   main .doc-section .split-code > :nth-child(2n) {
-    width: 80.90145%;
+    width: 87.26763%;
   }
 }
 main .doc-section .split-note + .split-code, main .doc-section .split-note + .split-note,
@@ -699,10 +703,15 @@ main .doc-section .split-code + .split-note {
 main .doc-section .split-note h6,
 main .doc-section .split-code h6 {
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 0.875em;
 }
 main .doc-section .split-note {
   background: rgba(43, 48, 59, 0.05);
   color: #2b303b;
+}
+main .doc-section .split-note pre {
+  margin: 0 -1.71429em 1.71429em;
+  padding: 1.71429em 1.71429em 1.71429em;
 }
 main .doc-section .split-note pre:last-of-type {
   margin-bottom: -1.5em;
@@ -751,10 +760,10 @@ main .doc-section .split-code h6 {
     float: left;
   }
   main .golden-ratio-multi-row-example > :nth-child(2n+1) {
-    width: 38.1971%;
+    width: 27.63958%;
   }
   main .golden-ratio-multi-row-example > :nth-child(2n) {
-    width: 61.8029%;
+    width: 72.36042%;
   }
 }
 @media (min-width: 36em) {

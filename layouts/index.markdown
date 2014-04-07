@@ -128,7 +128,7 @@ The `split` mixin automatically works across multiple rows, and takes an optiona
   <h6>SCSS</h6>
 {% highlight scss %}
 .golden-ratio-multi-row-example {
-  @mixin split(1, 1.618, 24em)
+  @mixin split(1, 2.618, 24em)
 }
 {% endhighlight %}
 
@@ -139,7 +139,7 @@ The `split` mixin automatically works across multiple rows, and takes an optiona
   <h6>SASS</h6>
 {% highlight sass %}
 .golden-ratio-multi-row-example
-  +split(1, 1.618, 24em)
+  +split(1, 2.618, 24em)
 {% endhighlight %}
 
 </div>

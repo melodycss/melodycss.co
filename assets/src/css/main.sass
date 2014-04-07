@@ -53,7 +53,7 @@ body
   a
     color: inherit
     display: block
-    margin-bottom: $baseline/2
+    margin-bottom: $baseline
     text-decoration: none
     font-family: $secondary
     font-weight: 400
@@ -76,6 +76,10 @@ body
 main
   height: calc(100vh - #{$baseline * 4})
   overflow: auto
+
+  pre
+    margin: 0 #{$baseline/-.875} #{$baseline/.875} #{($baseline/.875) * -1.25}
+    padding: #{$baseline/.875} #{$baseline/.875} #{$baseline/.875} #{($baseline/.875) * 1.25}
 
   .dev-message
     height: auto
@@ -105,18 +109,24 @@ main
     .split-code
       margin: 0 #{$baseline * -1} #{$baseline * 2} #{$baseline * -1.25}
       padding: $baseline $baseline $baseline #{$baseline * 1.25}
-      +split(1, 4.236)
+      +split(1, 6.854)
 
       & + .split-code,
       & + .split-note
         margin-top: #{$baseline * -2}
 
       h6
-        font-family: $secondary
+        font:
+          family: $secondary
+          size: .875em
 
     .split-note
       background: $shade
       color: $dark
+
+      pre
+        margin: 0 #{$baseline/-.875} #{$baseline/.875}
+        padding: #{$baseline/.875} #{$baseline/.875} #{$baseline/.875}
 
       pre:last-of-type
         margin-bottom: #{$baseline * -1}
@@ -141,7 +151,7 @@ main
     +split(1,1.618)
 
   .golden-ratio-multi-row-example
-    +split(1,1.618, 24em)
+    +split(1,2.618, 24em)
 
   .quarters-split-example
     +split(3,1)
