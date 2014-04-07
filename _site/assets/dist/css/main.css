@@ -524,7 +524,7 @@ pre {
   padding: 1.5em;
 }
 pre code {
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 
 code {
@@ -541,6 +541,10 @@ code {
  * ============================== */
 /* Layout
  * ============================== */
+a, a:visited {
+  color: #65737f;
+}
+
 body {
   color: #2b303b;
 }
@@ -555,10 +559,10 @@ body {
     float: left;
   }
   body > :nth-child(2n+1) {
-    width: 38.1971%;
+    width: 27.63958%;
   }
   body > :nth-child(2n) {
-    width: 61.8029%;
+    width: 72.36042%;
   }
 }
 body .logo, body .top, body main {
@@ -572,7 +576,7 @@ body .logo, body .top, body main {
   margin-bottom: 0;
 }
 .logo h2 a {
-  color: white;
+  color: #eff1f5;
   text-decoration: none;
 }
 
@@ -604,7 +608,7 @@ body .logo, body .top, body main {
   margin-bottom: 0.75em;
   text-decoration: none;
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 .sidebar a.current {
   text-decoration: underline;
@@ -616,11 +620,11 @@ body .logo, body .top, body main {
 }
 .sidebar .primary {
   background: #2b303b;
-  color: white;
+  color: #eff1f5;
 }
 .sidebar .secondary {
   background: #333d46;
-  color: white;
+  color: #eff1f5;
 }
 
 main {
@@ -633,6 +637,7 @@ main .dev-message {
   margin: -1.5em -1.5em 1.5em -1.75em;
   padding: 1.5em 1.5em 1.5em 1.75em;
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
 }
 main .dev-message p:last-of-type {
   margin: 0;
@@ -645,7 +650,7 @@ main .doc-section {
 }
 main .doc-section .split-note,
 main .doc-section .split-code {
-  margin: 0 -1.5em 1.5em -1.75em;
+  margin: 0 -1.5em 3em -1.75em;
   padding: 1.5em 1.5em 1.5em 1.75em;
 }
 @media (min-width: 36em) {
@@ -670,6 +675,15 @@ main .doc-section .split-code {
     width: 80.90145%;
   }
 }
+main .doc-section .split-note + .split-code, main .doc-section .split-note + .split-note,
+main .doc-section .split-code + .split-code,
+main .doc-section .split-code + .split-note {
+  margin-top: -3em;
+}
+main .doc-section .split-note h6,
+main .doc-section .split-code h6 {
+  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
 main .doc-section .split-note {
   background: rgba(43, 48, 59, 0.05);
   color: #2b303b;
@@ -688,7 +702,7 @@ main .doc-section .split-code pre {
   margin: 0 -1.5em;
 }
 main .doc-section .split-code h6 {
-  color: white;
+  color: #eff1f5;
 }
 @media (min-width: 36em) {
   main .golden-ratio-split-example {
@@ -794,7 +808,7 @@ main .quarters-split-example > :nth-child(1),
 main .grid-example > :nth-child(1),
 main .grid-mq-example > :nth-child(1) {
   background: rgba(193, 96, 105, 0.95);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -804,7 +818,7 @@ main .quarters-split-example > :nth-child(2),
 main .grid-example > :nth-child(2),
 main .grid-mq-example > :nth-child(2) {
   background: rgba(193, 96, 105, 0.9);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -814,7 +828,7 @@ main .quarters-split-example > :nth-child(3),
 main .grid-example > :nth-child(3),
 main .grid-mq-example > :nth-child(3) {
   background: rgba(193, 96, 105, 0.85);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -824,7 +838,7 @@ main .quarters-split-example > :nth-child(4),
 main .grid-example > :nth-child(4),
 main .grid-mq-example > :nth-child(4) {
   background: rgba(193, 96, 105, 0.8);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -834,7 +848,7 @@ main .quarters-split-example > :nth-child(5),
 main .grid-example > :nth-child(5),
 main .grid-mq-example > :nth-child(5) {
   background: rgba(193, 96, 105, 0.75);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -844,7 +858,7 @@ main .quarters-split-example > :nth-child(6),
 main .grid-example > :nth-child(6),
 main .grid-mq-example > :nth-child(6) {
   background: rgba(193, 96, 105, 0.7);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -854,7 +868,7 @@ main .quarters-split-example > :nth-child(7),
 main .grid-example > :nth-child(7),
 main .grid-mq-example > :nth-child(7) {
   background: rgba(193, 96, 105, 0.65);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -864,7 +878,7 @@ main .quarters-split-example > :nth-child(8),
 main .grid-example > :nth-child(8),
 main .grid-mq-example > :nth-child(8) {
   background: rgba(193, 96, 105, 0.6);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -874,7 +888,7 @@ main .quarters-split-example > :nth-child(9),
 main .grid-example > :nth-child(9),
 main .grid-mq-example > :nth-child(9) {
   background: rgba(193, 96, 105, 0.55);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -884,7 +898,7 @@ main .quarters-split-example > :nth-child(10),
 main .grid-example > :nth-child(10),
 main .grid-mq-example > :nth-child(10) {
   background: rgba(193, 96, 105, 0.5);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -894,7 +908,7 @@ main .quarters-split-example > :nth-child(11),
 main .grid-example > :nth-child(11),
 main .grid-mq-example > :nth-child(11) {
   background: rgba(193, 96, 105, 0.45);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }
@@ -904,7 +918,7 @@ main .quarters-split-example > :nth-child(12),
 main .grid-example > :nth-child(12),
 main .grid-mq-example > :nth-child(12) {
   background: rgba(193, 96, 105, 0.4);
-  color: white;
+  color: #eff1f5;
   text-align: center;
   padding: 1.5em;
 }

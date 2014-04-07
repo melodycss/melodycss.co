@@ -9,11 +9,12 @@
    ============================== */
 $red: #C16069
 $dark: #2B303B
+$dark2: #333D46
 $shade: rgba($dark, .05)
 $dred: darken($red, 10%)
 $yellow: #ECCC87
-$blue: #2B303B
-$blue2: #333D46
+$blue: #65737F
+$white: #eff1f5
 
 
 
@@ -21,8 +22,11 @@ $blue2: #333D46
 
 /* Layout
    ============================== */
+a, a:visited
+  color: $blue
+
 body
-  +split(1,1.618)
+  +split(1,2.618)
   color: $dark
 
   .logo, .top, main
@@ -35,7 +39,7 @@ body
     margin-bottom: 0
 
     a
-      color: white
+      color: $white
       text-decoration: none
 
 .top
@@ -52,7 +56,7 @@ body
     margin-bottom: .75em
     text-decoration: none
     font-family: $secondary
-    font-weight: 600
+    font-weight: 400
 
     &.current
       text-decoration: underline
@@ -63,11 +67,11 @@ body
 
   .primary
     background: $dark
-    color: white
+    color: $white
 
   .secondary
-    background: $blue2
-    color: white
+    background: $dark2
+    color: $white
 
 main
   height: calc(100vh - 6em)
@@ -77,7 +81,9 @@ main
     background: $yellow
     margin: -1.5em -1.5em 1.5em -1.75em
     padding: 1.5em 1.5em 1.5em 1.75em
-    font-family: $secondary
+    font:
+      family: $secondary
+      weight: 300
 
     p:last-of-type
       margin: 0
@@ -90,9 +96,16 @@ main
 
     .split-note,
     .split-code
-      margin: 0 -1.5em 1.5em -1.75em
+      margin: 0 -1.5em 3em -1.75em
       padding: 1.5em 1.5em 1.5em 1.75em
       +split(1, 4.236)
+
+      & + .split-code,
+      & + .split-note
+        margin-top: -3em
+
+      h6
+        font-family: $secondary
 
     .split-note
       background: $shade
@@ -102,7 +115,7 @@ main
         margin-bottom: -1.5em
 
     .split-code
-      background: $blue
+      background: $dark
 
       .highlight, pre
         background: transparent
@@ -112,7 +125,7 @@ main
         margin: 0 -1.5em
 
       h6
-        color: white
+        color: $white
 
   .golden-ratio-split-example
     +split(1,1.618)
@@ -139,6 +152,6 @@ main
     @for $i from 1 through 12
       & > :nth-child(#{$i})
         background: rgba($red, (1 - (.05 * $i)))
-        color: white
+        color: $white
         text-align: center
         padding: 1.5em
