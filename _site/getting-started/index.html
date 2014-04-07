@@ -47,7 +47,23 @@
 
 <h2>Installation</h2>
 
-<p>First, add the melody repository as</p>
+<p>First, just clone Melody within your SASS directory</p>
+
+<div class="highlight"><pre><code class="bash">git clone git@github.com:melodycss/melody.git melody
+</code></pre></div>
+
+
+<p>If you&rsquo;re already using git for your project, you can add the Melody repository as a git submodule</p>
+
+<div class="highlight"><pre><code class="bash">git submodule add git@github.com:melodycss/melody.git melody
+</code></pre></div>
+
+
+<p>Then, import the Melody stylesheet at the top of your main SASS stylesheet</p>
+
+<div class="highlight"><pre><code class="SASS"><span class="k">@import</span> <span class="s">melody/melody</span>
+</code></pre></div>
+
 
 <p></section></p>
 

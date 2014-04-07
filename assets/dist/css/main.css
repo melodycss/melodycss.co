@@ -694,12 +694,15 @@ main .doc-section .split-note pre:last-of-type {
 main .doc-section .split-code {
   background: #2b303b;
 }
+main .doc-section .split-code .highlight {
+  overflow-x: auto;
+}
 main .doc-section .split-code .highlight, main .doc-section .split-code pre {
   background: transparent;
 }
 main .doc-section .split-code pre {
   padding: 0 1.5em;
-  margin: 0 -1.5em;
+  margin: 0;
 }
 main .doc-section .split-code h6 {
   color: #eff1f5;
