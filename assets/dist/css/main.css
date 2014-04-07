@@ -633,6 +633,8 @@ main {
   overflow: auto;
 }
 main .dev-message {
+  height: auto;
+  overflow: hidden;
   background: #eccc87;
   margin: -1.5em -1.5em 1.5em -1.75em;
   padding: 1.5em 1.5em 1.5em 1.75em;
@@ -645,7 +647,7 @@ main .dev-message p {
 main .dev-message p:last-of-type {
   margin: 0;
 }
-main > .container {
+main .container {
   float: left;
 }
 main .doc-section {
