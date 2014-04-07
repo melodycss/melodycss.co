@@ -97,7 +97,7 @@ A mixin for providing a two column layout based on simple ratios
 
 #### Multiple Rows
 
-The `split` mixin also works on multiple rows, and takes an optional third parameter, defining the breakpoint above which the split occurs. Take this golden ratio example with 6 divs, and a much smaller breakpoint:
+The `split` mixin automatically works across multiple rows, and takes an optional third parameter, defining the breakpoint above which the split occurs. Take this golden ratio example with 6 divs, and a much smaller breakpoint:
 
 <section class="golden-ratio-multi-row-example">
   <div>One</div>
@@ -261,14 +261,14 @@ You can also override the medium and large breakpoints, by specifying them as 4t
 
 {% highlight sass %}
 .example
-  margin-bottom: 1.5em
+  margin-bottom: $baseline
 
   @for $i from 1 through 12
     & > :nth-child(#{$i})
       background: rgba($red, (1 - (.05 * $i)))
       color: white
       text-align: center
-      padding: 1.5em
+      padding: $baseline
 {% endhighlight %}
 
 </div>

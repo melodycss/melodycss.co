@@ -325,6 +325,14 @@
 }
 
 /* Literal.Number.Integer.Long */
+/* Fonts
+ * =========================== */
+/* Grid
+ * =========================== */
+/* Breakpoints
+ * =========================== */
+/* Colors
+ * =========================== */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -465,7 +473,8 @@ small {
 
 hr {
   height: 0;
-  margin: 2.95em auto 3em;
+  margin: -webkit-calc(3em - 1px) auto 3em;
+  margin: calc(3em - 1px) auto 3em;
   border: solid rgba(40, 40, 40, 0.05);
   border-width: 0 0 1px;
 }
@@ -480,7 +489,7 @@ blockquote cite {
   font-style: normal;
 }
 blockquote:not(.pull) {
-  margin: 0 0 1.5em -1.5em;
+  margin: 0 0 0em;
   border: solid rgba(40, 40, 40, 0.05);
   border-width: 0 0 0 0.25em;
   padding: 0 0 0 1.25em;
@@ -519,16 +528,16 @@ blockquote.pull p {
 }
 
 pre {
-  background: rgba(40, 40, 40, 0.05);
-  margin: 0 -1.5em 1.5em;
-  padding: 1.5em;
-}
-pre code {
   font-size: 0.875em;
+  line-height: 1.71429em;
+  background: rgba(40, 40, 40, 0.05);
+  margin: 0 -1.71429em 1.71429em;
+  padding: 1.71429em;
 }
 
 code {
   font-family: "Source Code Pro", "Courier New", "Inconsolata", monospace;
+  line-height: 0;
 }
 
 .container {
@@ -636,13 +645,15 @@ main .dev-message {
   height: auto;
   overflow: hidden;
   background: #eccc87;
-  margin: -1.5em -1.5em 1.5em -1.75em;
-  padding: 1.5em 1.5em 1.5em 1.75em;
+  margin: -1.5em -1.5em 1.5em -1.875em;
+  padding: 1.5em 1.5em 1.5em 1.875em;
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
 }
 main .dev-message p {
   font-size: 0.875em;
+  line-height: 1.71429em;
+  margin-bottom: 1.71429em;
 }
 main .dev-message p:last-of-type {
   margin: 0;
@@ -655,8 +666,8 @@ main .doc-section {
 }
 main .doc-section .split-note,
 main .doc-section .split-code {
-  margin: 0 -1.5em 3em -1.75em;
-  padding: 1.5em 1.5em 1.5em 1.75em;
+  margin: 0 -1.5em 3em -1.875em;
+  padding: 1.5em 1.5em 1.5em 1.875em;
 }
 @media (min-width: 36em) {
   main .doc-section .split-note,

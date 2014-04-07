@@ -32,6 +32,10 @@
         
           <a href="#installation">Installation</a>
         
+          <a href="#included-files">Included Files</a>
+        
+          <a href="#configuration">Configuration</a>
+        
       </nav>
     </aside>
 
@@ -64,6 +68,79 @@
 <p>Then, import the Melody stylesheet at the top of your main SASS stylesheet</p>
 
 <div class="highlight"><pre><code class="SASS"><span class="k">@import</span> <span class="s">melody/melody</span>
+</code></pre></div>
+
+
+<p></section></p>
+
+<p><section class="doc-section included-files" id="included-files"></p>
+
+<h2>Included Files</h2>
+
+<div class="highlight"><pre><code class="sass"><span class="nt">melody</span>
+  <span class="o">|</span><span class="nt">_melody</span><span class="nc">.sass</span>
+  <span class="o">|</span><span class="nt">modules</span>
+    <span class="o">|</span><span class="nt">_config</span><span class="nc">.sass</span>
+    <span class="o">|</span><span class="nt">_grid</span><span class="nc">.sass</span>
+    <span class="o">|</span><span class="nt">_mixins</span><span class="nc">.sass</span>
+    <span class="o">|</span><span class="nt">_reset</span><span class="nc">.sass</span>
+    <span class="o">|</span><span class="nt">_type</span><span class="nc">.sass</span>
+</code></pre></div>
+
+
+<p></section></p>
+
+<p><section class="doc-section configuration" id="configuration"></p>
+
+<h2>Configuration</h2>
+
+<p>All the variables required for configuring Melody are found within <code>_config.sass</code>.</p>
+
+<h4>Fonts</h4>
+
+<p>Four variables, defining the font stacks used throughout the site. Some sensible defaults are provided.</p>
+
+<div class="highlight"><pre><code class="sass"><span class="nv">$primary</span><span class="o">:</span> <span class="s2">&quot;Georgia&quot;</span><span class="o">,</span> <span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span> <span class="no">serif</span>
+<span class="nv">$secondary</span><span class="o">:</span> <span class="s2">&quot;Helvetica Neue&quot;</span><span class="o">,</span> <span class="s2">&quot;Helvetica&quot;</span><span class="o">,</span> <span class="s2">&quot;Arial&quot;</span><span class="o">,</span> <span class="no">sans-serif</span>
+<span class="nv">$heading</span><span class="o">:</span> <span class="s2">&quot;Georgia&quot;</span><span class="o">,</span> <span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span> <span class="no">serif</span>
+<span class="nv">$mono</span><span class="o">:</span> <span class="s2">&quot;Courier New&quot;</span><span class="o">,</span> <span class="s2">&quot;Inconsolata&quot;</span><span class="o">,</span> <span class="no">monospace</span>
+</code></pre></div>
+
+
+<h4>Grid</h4>
+
+<p>Variables for configuring layouts</p>
+
+<div class="highlight"><pre><code class="sass"><span class="c1">// The maximum width of the .container element</span>
+<span class="c1">// (usually used as a wrapper around the page content)</span>
+<span class="nv">$container_width</span><span class="o">:</span> <span class="mi">42</span><span class="kt">em</span>
+
+<span class="c1">// Sets the baseline size used throughout</span>
+<span class="nv">$baseline</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.5</span><span class="kt">em</span>
+
+<span class="c1">// If true, sets a background-image on the body</span>
+<span class="c1">// showing the baseline to ensure correct vertical flow</span>
+<span class="nv">$show_baseline</span><span class="o">:</span> <span class="n-Pseudo">false</span>
+
+<span class="c1">// If true, increases the font size at the defined breakpoints</span>
+<span class="nv">$type_scaling</span><span class="o">:</span> <span class="n-Pseudo">false</span>
+</code></pre></div>
+
+
+<h4>Breakpoints</h4>
+
+<div class="highlight"><pre><code class="sass"><span class="nv">$bp_medium</span><span class="o">:</span> <span class="mi">36</span><span class="kt">em</span>
+<span class="nv">$bp_large</span><span class="o">:</span> <span class="mi">48</span><span class="kt">em</span>
+</code></pre></div>
+
+
+<h4>Colors</h4>
+
+<div class="highlight"><pre><code class="sass"><span class="c1">// The base text color</span>
+<span class="nv">$dark</span><span class="o">:</span> <span class="mh">#282828</span>
+
+<span class="c1">// Used in the default styles for accent colors</span>
+<span class="nv">$shade</span><span class="o">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="nv">$dark</span><span class="o">,</span> <span class="mf">.05</span><span class="p">)</span>
 </code></pre></div>
 
 
