@@ -723,18 +723,18 @@ main .grid-mq-example {
 }
 main .grid-mq-example > * {
   display: inline-block;
-  width: 100%;
+  width: 50%;
   vertical-align: top;
   float: left;
 }
 @media (min-width: 64em) {
   main .grid-mq-example > * {
-    width: 50%;
+    width: 33.33333%;
   }
 }
 @media (min-width: 96em) {
   main .grid-mq-example > * {
-    width: 25%;
+    width: 16.66667%;
   }
 }
 main .golden-ratio-split-example,

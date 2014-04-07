@@ -201,6 +201,8 @@ You can also override the medium and large breakpoints, by specifying them as 4t
   <div>Two</div>
   <div>Three</div>
   <div>Four</div>
+  <div>Five</div>
+  <div>Six</div>
 </div>
 
 <div class="split-code">
@@ -212,6 +214,8 @@ You can also override the medium and large breakpoints, by specifying them as 4t
   <div>Two</div>
   <div>Three</div>
   <div>Four</div>
+  <div>Five</div>
+  <div>Six</div>
 </div>
 {% endhighlight %}
 
@@ -222,7 +226,7 @@ You can also override the medium and large breakpoints, by specifying them as 4t
   <h6>SCSS</h6>
 {% highlight scss %}
 .grid-mq-example {
-  @mixin grid(1, 2, 4, 64em, 96em)
+  @mixin grid(2, 3, 6, 64em, 96em)
 }
 {% endhighlight %}
 
@@ -233,7 +237,7 @@ You can also override the medium and large breakpoints, by specifying them as 4t
   <h6>SASS</h6>
 {% highlight sass %}
 .grid-mq-example
-  +grid(1, 2, 4, 64em, 96em)
+  +grid(2, 3, 6, 64em, 96em)
 {% endhighlight %}
 
 </div>
