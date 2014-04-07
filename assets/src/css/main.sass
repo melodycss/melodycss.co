@@ -7,9 +7,13 @@
 
 /* Colors
    ============================== */
-$red: #C14D4D
-$dark: #282828
-$dred: #742F2F
+$red: #C16069
+$dark: #2B303B
+$shade: rgba($dark, .05)
+$dred: darken($red, 10%)
+$yellow: #ECCC87
+$blue: #2B303B
+$blue2: #333D46
 
 
 
@@ -37,6 +41,7 @@ body
 .top
   h1
     margin-bottom: 0
+    font-family: $secondary
 
 .sidebar
   +split(1,1.618)
@@ -61,12 +66,21 @@ body
     color: white
 
   .secondary
-    background: $dred
+    background: $blue2
     color: white
 
 main
   height: calc(100vh - 6em)
   overflow: auto
+
+  .dev-message
+    background: $yellow
+    margin: -1.5em -1.5em 1.5em -1.75em
+    padding: 1.5em 1.5em 1.5em 1.75em
+    font-family: $secondary
+
+    p:last-of-type
+      margin: 0
 
   & > .container
     float: left
@@ -74,11 +88,21 @@ main
   .doc-section
     padding: 1.5em 0
 
+    .split-note,
     .split-code
-      margin: 0 -1.5em 1.5em
-      padding: 1.5em
-      background: $shade
+      margin: 0 -1.5em 1.5em -1.75em
+      padding: 1.5em 1.5em 1.5em 1.75em
       +split(1, 4.236)
+
+    .split-note
+      background: $shade
+      color: $dark
+
+      pre:last-of-type
+        margin-bottom: -1.5em
+
+    .split-code
+      background: $blue
 
       .highlight, pre
         background: transparent
@@ -86,6 +110,9 @@ main
       pre
         padding: 0 1.5em
         margin: 0 -1.5em
+
+      h6
+        color: white
 
   .golden-ratio-split-example
     +split(1,1.618)
@@ -109,12 +136,9 @@ main
   .grid-mq-example
     margin-bottom: 1.5em
 
-    & > *
-      text-align: center
-      background: $shade
-      padding: 1.5em
-
     @for $i from 1 through 12
       & > :nth-child(#{$i})
         background: rgba($red, (1 - (.05 * $i)))
         color: white
+        text-align: center
+        padding: 1.5em

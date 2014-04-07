@@ -36,6 +36,9 @@ At the heart of all good CSS is structured typography. Melody includes the follo
 > Sucking at something is the first step to becoming sorta good at something.
   <cite>Jake the Dog, Adventure Time</cite>
 
+<div class="split-code">
+
+  <h6>HTML</h6>
 {% highlight html %}
 <blockquote>
   <p>
@@ -44,6 +47,8 @@ At the heart of all good CSS is structured typography. Melody includes the follo
   </p>
 </blockquote>
 {% endhighlight %}
+
+</div>
 
 #### Pull Quote
 
@@ -54,6 +59,9 @@ At the heart of all good CSS is structured typography. Melody includes the follo
   </p>
 </blockquote>
 
+<div class="split-code">
+
+  <h6>HTML</h6>
 {% highlight html %}
 <blockquote class="pull">
   <p>
@@ -62,6 +70,8 @@ At the heart of all good CSS is structured typography. Melody includes the follo
   </p>
 </blockquote>
 {% endhighlight %}
+
+</div>
 </section>
 
 <section class="doc-section lists" id="lists">

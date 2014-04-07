@@ -242,3 +242,35 @@ You can also override the medium and large breakpoints, by specifying them as 4t
 
 </div>
 </section>
+
+<section class="doc-section notes">
+
+<div class="split-note">
+
+  <h6>Note</h6>
+  <div>
+    <p>
+      All the examples on this page use the following SASS rules for display purposes.
+    </p>
+    <p>
+      Other than that defined below, all CSS rules applied are within the mixin(s) that the example describes.
+    </p>
+  </div>
+
+  <h6></h6>
+
+{% highlight sass %}
+.example
+  margin-bottom: 1.5em
+
+  @for $i from 1 through 12
+    & > :nth-child(#{$i})
+      background: rgba($red, (1 - (.05 * $i)))
+      color: white
+      text-align: center
+      padding: 1.5em
+{% endhighlight %}
+
+</div>
+
+</section>
