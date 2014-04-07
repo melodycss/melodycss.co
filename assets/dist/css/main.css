@@ -639,6 +639,9 @@ main .dev-message {
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
 }
+main .dev-message p {
+  font-size: 0.875em;
+}
 main .dev-message p:last-of-type {
   margin: 0;
 }
