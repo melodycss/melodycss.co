@@ -491,11 +491,14 @@ blockquote.pull {
   font-size: 2.25em;
   margin: 0 0 0.66667em;
   line-height: 1.35em;
-  font-weight: 300;
+  font-weight: 200;
   font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 blockquote.pull cite {
   font-size: 0.44444em;
+}
+blockquote.pull p {
+  margin: 0;
 }
 
 .center {
