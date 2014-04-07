@@ -97,7 +97,7 @@ A mixin for providing a two column layout based on simple ratios
 
 #### Multiple Rows
 
-The `split` mixin works on multiple rows as well. Take this golden ratio example with 6 divs:
+The `split` mixin also works on multiple rows, and takes an optional third parameter, defining the breakpoint above which the split occurs. Take this golden ratio example with 6 divs, and a much smaller breakpoint:
 
 <section class="golden-ratio-multi-row-example">
   <div>One</div>
@@ -128,7 +128,7 @@ The `split` mixin works on multiple rows as well. Take this golden ratio example
   <h6>SCSS</h6>
 {% highlight scss %}
 .golden-ratio-multi-row-example {
-  @mixin split(1, 1.618)
+  @mixin split(1, 1.618, 24em)
 }
 {% endhighlight %}
 
@@ -139,7 +139,7 @@ The `split` mixin works on multiple rows as well. Take this golden ratio example
   <h6>SASS</h6>
 {% highlight sass %}
 .golden-ratio-multi-row-example
-  +split(1, 1.618)
+  +split(1, 1.618, 24em)
 {% endhighlight %}
 
 </div>
@@ -176,7 +176,7 @@ Arrange elements into a grid of equal-sized columns, based on the breakpoints `$
   <h6>SCSS</h6>
 {% highlight scss %}
 .grid-example {
-  @mixin grid(4, 2, 1)
+  @mixin grid(1, 2, 4)
 }
 {% endhighlight %}
 
@@ -187,11 +187,54 @@ Arrange elements into a grid of equal-sized columns, based on the breakpoints `$
   <h6>SASS</h6>
 {% highlight sass %}
 .grid-example
-  +grid(4, 2, 1)
+  +grid(1, 2, 4)
 {% endhighlight %}
 
 </div>
 
-
 The above arranges the divs within `.grid-example` into a grid layout, with 1 column by default, 2 columns at screen sizes above `$bp_medium`, and 4 columns at screen sizes above `$bp_large`.
+
+You can also override the medium and large breakpoints, by specifying them as 4th and 5th arguments respectively:
+
+<div class="grid-mq-example">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+</div>
+
+<div class="split-code">
+
+  <h6>HTML</h6>
+{% highlight html %}
+<div class="grid-mq-example">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+</div>
+{% endhighlight %}
+
+</div>
+
+<div class="split-code">
+
+  <h6>SCSS</h6>
+{% highlight scss %}
+.grid-mq-example {
+  @mixin grid(1, 2, 4, 64em, 96em)
+}
+{% endhighlight %}
+
+</div>
+
+<div class="split-code">
+
+  <h6>SASS</h6>
+{% highlight sass %}
+.grid-mq-example
+  +grid(1, 2, 4, 64em, 96em)
+{% endhighlight %}
+
+</div>
 </section>

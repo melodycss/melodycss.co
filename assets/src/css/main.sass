@@ -87,20 +87,26 @@ main
         padding: 0 1.5em
         margin: 0 -1.5em
 
-  .golden-ratio-split-example,
-  .golden-ratio-multi-row-example
+  .golden-ratio-split-example
     +split(1,1.618)
+
+  .golden-ratio-multi-row-example
+    +split(1,1.618, 24em)
 
   .quarters-split-example
     +split(3,1)
 
   .grid-example
-    +grid(4, 2, 1)
+    +grid(1, 2, 4)
+
+  .grid-mq-example
+    +grid(1, 2, 4, 64em, 96em)
 
   .golden-ratio-split-example,
   .golden-ratio-multi-row-example,
   .quarters-split-example,
-  .grid-example
+  .grid-example,
+  .grid-mq-example
     margin-bottom: 1.5em
 
     & > *
