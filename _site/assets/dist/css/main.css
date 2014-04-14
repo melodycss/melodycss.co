@@ -399,6 +399,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "ff-meta-serif-web-pro", "Tisa OT", "Georgia", "Times New Roman", serif;
   font-weight: 700;
 }
+h1.alt, h2.alt, h3.alt, h4.alt, h5.alt, h6.alt {
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h1.alt, h2.alt {
+  font-weight: 200;
+}
+
+h3.alt, h4.alt {
+  font-weight: 400;
+}
 
 h1 {
   font-size: 3em;
@@ -443,16 +454,17 @@ p, ul, ol, dl, blockquote {
 ul {
   list-style: disc inside;
 }
-ul ul {
-  list-style: circle inside;
-  margin-bottom: 0;
-  margin-left: 1.5em;
-}
 
 ol {
   list-style: decimal inside;
 }
-ol ol {
+
+ul ul, ol ul {
+  list-style: circle inside;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+ul ol, ol ol {
   list-style: lower-roman inside;
   margin-bottom: 0;
   margin-left: 1.5em;
@@ -479,20 +491,24 @@ hr {
   border-width: 0 0 1px;
 }
 
-blockquote {
+blockquote, figcaption {
   display: block;
 }
-blockquote cite {
+blockquote cite, figcaption cite {
   display: block;
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
+blockquote p:last-of-type, figcaption p:last-of-type {
+  margin: 0;
+}
+
 blockquote:not(.pull) {
-  margin: 0 0 0em;
+  margin: 0 0 1.5em -1.5em;
   border: solid rgba(40, 40, 40, 0.05);
-  border-width: 0 0 0 0.25em;
-  padding: 0 0 0 1.25em;
+  border-width: 0 0 0 1.5em;
+  padding: 0 0 0 1.5em;
   font-weight: 300;
   font-style: italic;
 }
@@ -501,13 +517,31 @@ blockquote.pull {
   margin: 0 0 0.66667em;
   line-height: 1.35em;
   font-weight: 200;
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 blockquote.pull cite {
   font-size: 0.44444em;
 }
-blockquote.pull p {
-  margin: 0;
+
+figure {
+  max-width: 100%;
+}
+figure img {
+  max-width: 100%;
+}
+figure figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+}
+figure.full-width {
+  width: 100%;
+}
+figure.full-width img {
+  margin: 0 -1.5em 0;
+  max-width: -webkit-calc(100% + 3em);
+  max-width: calc(100% + 3em);
+  width: -webkit-calc(100% + 3em);
+  width: calc(100% + 3em);
 }
 
 .center {
@@ -520,11 +554,6 @@ blockquote.pull p {
 
 .ralign {
   text-align: right;
-}
-
-.alt {
-  font-weight: 300;
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 pre {
@@ -589,12 +618,16 @@ body .logo, body .top, body main {
   text-decoration: none;
 }
 
+.top {
+  background: rgba(193, 96, 105, 0.95);
+  color: white;
+}
 .top h1 {
   margin-bottom: 0;
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-@media (min-width: 36em) {
+@media (min-width: 64em) {
   .sidebar {
     height: auto;
     overflow: hidden;
@@ -616,7 +649,7 @@ body .logo, body .top, body main {
   display: block;
   margin-bottom: 1.5em;
   text-decoration: none;
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
 }
 .sidebar a.current {
@@ -631,6 +664,23 @@ body .logo, body .top, body main {
   background: #2b303b;
   color: #eff1f5;
 }
+@media (max-width: 64em) {
+  .sidebar .primary {
+    -webkit-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    -webkit-transition: -webkit-transform 0.25s ease-in-out-quad;
+    transition: transform 0.25s ease-in-out-quad;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .sidebar .primary.visible {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
 .sidebar .secondary {
   background: #333d46;
   color: #eff1f5;
@@ -642,7 +692,7 @@ main {
   overflow: auto;
 }
 main pre {
-  margin: 0 -1.71429em 1.71429em -2.14286em;
+  margin: 0 -1.71429em 3.42857em -2.14286em;
   padding: 1.71429em 1.71429em 1.71429em 2.14286em;
 }
 main .dev-message {
@@ -651,7 +701,7 @@ main .dev-message {
   background: #eccc87;
   margin: -1.5em -1.5em 1.5em -1.875em;
   padding: 1.5em 1.5em 1.5em 1.875em;
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
 }
 main .dev-message p {
@@ -702,8 +752,9 @@ main .doc-section .split-code + .split-note {
 }
 main .doc-section .split-note h6,
 main .doc-section .split-code h6 {
-  font-family: "jaf-facitweb", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 0.875em;
+  font-weight: 600;
 }
 main .doc-section .split-note {
   background: rgba(43, 48, 59, 0.05);
@@ -835,7 +886,7 @@ main .golden-ratio-multi-row-example > :nth-child(1),
 main .quarters-split-example > :nth-child(1),
 main .grid-example > :nth-child(1),
 main .grid-mq-example > :nth-child(1) {
-  background: rgba(193, 96, 105, 0.95);
+  background: #c16069;
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -845,7 +896,7 @@ main .golden-ratio-multi-row-example > :nth-child(2),
 main .quarters-split-example > :nth-child(2),
 main .grid-example > :nth-child(2),
 main .grid-mq-example > :nth-child(2) {
-  background: rgba(193, 96, 105, 0.9);
+  background: rgba(193, 96, 105, 0.95);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -855,7 +906,7 @@ main .golden-ratio-multi-row-example > :nth-child(3),
 main .quarters-split-example > :nth-child(3),
 main .grid-example > :nth-child(3),
 main .grid-mq-example > :nth-child(3) {
-  background: rgba(193, 96, 105, 0.85);
+  background: rgba(193, 96, 105, 0.9);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -865,7 +916,7 @@ main .golden-ratio-multi-row-example > :nth-child(4),
 main .quarters-split-example > :nth-child(4),
 main .grid-example > :nth-child(4),
 main .grid-mq-example > :nth-child(4) {
-  background: rgba(193, 96, 105, 0.8);
+  background: rgba(193, 96, 105, 0.85);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -875,7 +926,7 @@ main .golden-ratio-multi-row-example > :nth-child(5),
 main .quarters-split-example > :nth-child(5),
 main .grid-example > :nth-child(5),
 main .grid-mq-example > :nth-child(5) {
-  background: rgba(193, 96, 105, 0.75);
+  background: rgba(193, 96, 105, 0.8);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -885,7 +936,7 @@ main .golden-ratio-multi-row-example > :nth-child(6),
 main .quarters-split-example > :nth-child(6),
 main .grid-example > :nth-child(6),
 main .grid-mq-example > :nth-child(6) {
-  background: rgba(193, 96, 105, 0.7);
+  background: rgba(193, 96, 105, 0.75);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -895,7 +946,7 @@ main .golden-ratio-multi-row-example > :nth-child(7),
 main .quarters-split-example > :nth-child(7),
 main .grid-example > :nth-child(7),
 main .grid-mq-example > :nth-child(7) {
-  background: rgba(193, 96, 105, 0.65);
+  background: rgba(193, 96, 105, 0.7);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -905,7 +956,7 @@ main .golden-ratio-multi-row-example > :nth-child(8),
 main .quarters-split-example > :nth-child(8),
 main .grid-example > :nth-child(8),
 main .grid-mq-example > :nth-child(8) {
-  background: rgba(193, 96, 105, 0.6);
+  background: rgba(193, 96, 105, 0.65);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -915,7 +966,7 @@ main .golden-ratio-multi-row-example > :nth-child(9),
 main .quarters-split-example > :nth-child(9),
 main .grid-example > :nth-child(9),
 main .grid-mq-example > :nth-child(9) {
-  background: rgba(193, 96, 105, 0.55);
+  background: rgba(193, 96, 105, 0.6);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -925,7 +976,7 @@ main .golden-ratio-multi-row-example > :nth-child(10),
 main .quarters-split-example > :nth-child(10),
 main .grid-example > :nth-child(10),
 main .grid-mq-example > :nth-child(10) {
-  background: rgba(193, 96, 105, 0.5);
+  background: rgba(193, 96, 105, 0.55);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -935,7 +986,7 @@ main .golden-ratio-multi-row-example > :nth-child(11),
 main .quarters-split-example > :nth-child(11),
 main .grid-example > :nth-child(11),
 main .grid-mq-example > :nth-child(11) {
-  background: rgba(193, 96, 105, 0.45);
+  background: rgba(193, 96, 105, 0.5);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;
@@ -945,7 +996,7 @@ main .golden-ratio-multi-row-example > :nth-child(12),
 main .quarters-split-example > :nth-child(12),
 main .grid-example > :nth-child(12),
 main .grid-mq-example > :nth-child(12) {
-  background: rgba(193, 96, 105, 0.4);
+  background: rgba(193, 96, 105, 0.45);
   color: #eff1f5;
   text-align: center;
   padding: 1.5em;

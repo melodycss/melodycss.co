@@ -247,7 +247,7 @@ You can also override the medium and large breakpoints, by specifying them as 4t
 
 <div class="split-note">
 
-  <h6>Note</h6>
+  <h6>NOTE</h6>
   <div>
     <p>
       All the examples on this page use the following SASS rules for display purposes.

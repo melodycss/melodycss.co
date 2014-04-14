@@ -43,12 +43,15 @@ body
       text-decoration: none
 
 .top
+  background: rgba($red, .95)
+  color: white
+
   h1
     margin-bottom: 0
     font-family: $secondary
 
 .sidebar
-  +split(1,1.618)
+  +split(1, 1.618, 64em)
 
   a
     color: inherit
@@ -69,6 +72,11 @@ body
     background: $dark
     color: $white
 
+    +off-canvas('left', 64em)
+      position: fixed
+      top: 0
+      left: 0
+
   .secondary
     background: $dark2
     color: $white
@@ -78,7 +86,7 @@ main
   overflow: auto
 
   pre
-    margin: 0 #{$baseline/-.875} #{$baseline/.875} #{($baseline/.875) * -1.25}
+    margin: 0 #{$baseline/-.875} #{$baseline/.875 * 2} #{($baseline/.875) * -1.25}
     padding: #{$baseline/.875} #{$baseline/.875} #{$baseline/.875} #{($baseline/.875) * 1.25}
 
   .dev-message
@@ -119,6 +127,7 @@ main
         font:
           family: $secondary
           size: .875em
+          weight: 600
 
     .split-note
       background: $shade
@@ -171,7 +180,7 @@ main
 
     @for $i from 1 through 12
       & > :nth-child(#{$i})
-        background: rgba($red, (1 - (.05 * $i)))
+        background: rgba($red, (1.05 - (.05 * $i)))
         color: $white
         text-align: center
         padding: $baseline
