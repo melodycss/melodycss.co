@@ -580,11 +580,11 @@ code {
 /* Layout
  * ============================== */
 a, a:visited {
-  color: #65737f;
+  color: #65737F;
 }
 
 body {
-  color: #2b303b;
+  color: #2B303B;
 }
 @media (min-width: 36em) {
   body {
@@ -608,7 +608,7 @@ body .logo, body .top, body main {
 }
 
 .logo {
-  background: #c16069;
+  background: #C16069;
 }
 .logo h2 {
   margin-bottom: 0;
@@ -661,7 +661,7 @@ body .logo, body .top, body main {
   height: calc(100vh - 6em);
 }
 .sidebar .primary {
-  background: #2b303b;
+  background: #2B303B;
   color: #eff1f5;
 }
 @media (max-width: 64em) {
@@ -682,7 +682,7 @@ body .logo, body .top, body main {
   }
 }
 .sidebar .secondary {
-  background: #333d46;
+  background: #333D46;
   color: #eff1f5;
 }
 
@@ -698,7 +698,7 @@ main pre {
 main .dev-message {
   height: auto;
   overflow: hidden;
-  background: #eccc87;
+  background: #ECCC87;
   margin: -1.5em -1.5em 1.5em -1.875em;
   padding: 1.5em 1.5em 1.5em 1.875em;
   font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -758,7 +758,7 @@ main .doc-section .split-code h6 {
 }
 main .doc-section .split-note {
   background: rgba(43, 48, 59, 0.05);
-  color: #2b303b;
+  color: #2B303B;
 }
 main .doc-section .split-note pre {
   margin: 0 -1.71429em 1.71429em;
@@ -768,7 +768,7 @@ main .doc-section .split-note pre:last-of-type {
   margin-bottom: -1.5em;
 }
 main .doc-section .split-code {
-  background: #2b303b;
+  background: #2B303B;
 }
 main .doc-section .split-code .highlight {
   overflow-x: auto;
@@ -1001,3 +1001,5 @@ main .grid-mq-example > :nth-child(12) {
   text-align: center;
   padding: 1.5em;
 }
+
+/*# sourceMappingURL=f23dd736-77c7-448f-8293-191b5c4dffa5.sass.map */

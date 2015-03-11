@@ -8,7 +8,7 @@ sections:
     slug: grids
 ---
 
-Melody includes simple layut mixins, which when applied to the *parent*, arrange all its children in the specified layout. Any elements can be used, and layout styles are applied using `:nth-child` selectors, keeping your markup semantic and clean.
+Melody includes simple layout mixins, which when applied to the *parent*, arrange all its children in the specified layout. Any elements can be used, and layout styles are applied using `:nth-child` selectors, keeping your markup semantic and clean.
 
 <section class="doc-section splits" id="splits">
 ## Split
