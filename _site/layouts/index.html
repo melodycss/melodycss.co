@@ -662,12 +662,14 @@
 <div class="highlight"><pre><code class="language-sass" data-lang="sass"><span class="nc">.example</span>
   <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$baseline</span>
 
+  <span class="o">*</span>
+    <span class="na">color</span><span class="o">:</span> <span class="nv">$white</span>
+    <span class="na">text-align</span><span class="o">:</span> <span class="no">center</span>
+    <span class="na">padding</span><span class="o">:</span> <span class="nv">$baseline</span>
+
   <span class="k">@for</span> <span class="nv">$i</span> <span class="ow">from</span> <span class="mi">1</span> <span class="ow">through</span> <span class="mi">12</span>
-    <span class="k">&amp;</span> <span class="o">&gt;</span> <span class="nd">:nth-child</span><span class="o">(</span><span class="nn">#</span><span class="err">{$</span><span class="nt">i</span><span class="err">}</span><span class="o">)</span>
-      <span class="na">background</span><span class="o">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="nv">$red</span><span class="o">,</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="mf">.05</span> <span class="o">*</span> <span class="nv">$i</span><span class="p">)))</span>
-      <span class="na">color</span><span class="o">:</span> <span class="nb">white</span>
-      <span class="na">text-align</span><span class="o">:</span> <span class="no">center</span>
-      <span class="na">padding</span><span class="o">:</span> <span class="nv">$baseline</span></code></pre></div>
+    <span class="na">:nth-child(#{$i})</span>
+      <span class="na">background</span><span class="o">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="nv">$red</span><span class="o">,</span> <span class="p">(</span><span class="mi">1</span><span class="mf">.025</span> <span class="o">-</span> <span class="p">(</span><span class="mf">.025</span> <span class="o">*</span> <span class="nv">$i</span><span class="p">)))</span></code></pre></div>
 
 
 </div>

@@ -506,12 +506,14 @@ There are also mixins for targeting columns, following the syntax of the row mix
 .example
   margin-bottom: $baseline
 
+  *
+    color: $white
+    text-align: center
+    padding: $baseline
+
   @for $i from 1 through 12
-    & > :nth-child(#{$i})
-      background: rgba($red, (1 - (.05 * $i)))
-      color: white
-      text-align: center
-      padding: $baseline
+    :nth-child(#{$i})
+      background: rgba($red, (1.025 - (.025 * $i)))
 {% endhighlight %}
 
 </div>

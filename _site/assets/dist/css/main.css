@@ -594,30 +594,6 @@ main {
       background: rgba(193, 96, 105, 0.75); }
     main .golden-ratio-split-example :nth-child(12), main .golden-ratio-multi-row-example :nth-child(12), main .quarters-split-example :nth-child(12), main .grid-example :nth-child(12), main .grid-mq-example :nth-child(12), main .row-example :nth-child(12), main .row-example-two :nth-child(12), main .column-example :nth-child(12) {
       background: rgba(193, 96, 105, 0.725); }
-    main .golden-ratio-split-example :nth-child(13), main .golden-ratio-multi-row-example :nth-child(13), main .quarters-split-example :nth-child(13), main .grid-example :nth-child(13), main .grid-mq-example :nth-child(13), main .row-example :nth-child(13), main .row-example-two :nth-child(13), main .column-example :nth-child(13) {
-      background: rgba(193, 96, 105, 0.7); }
-    main .golden-ratio-split-example :nth-child(14), main .golden-ratio-multi-row-example :nth-child(14), main .quarters-split-example :nth-child(14), main .grid-example :nth-child(14), main .grid-mq-example :nth-child(14), main .row-example :nth-child(14), main .row-example-two :nth-child(14), main .column-example :nth-child(14) {
-      background: rgba(193, 96, 105, 0.675); }
-    main .golden-ratio-split-example :nth-child(15), main .golden-ratio-multi-row-example :nth-child(15), main .quarters-split-example :nth-child(15), main .grid-example :nth-child(15), main .grid-mq-example :nth-child(15), main .row-example :nth-child(15), main .row-example-two :nth-child(15), main .column-example :nth-child(15) {
-      background: rgba(193, 96, 105, 0.65); }
-    main .golden-ratio-split-example :nth-child(16), main .golden-ratio-multi-row-example :nth-child(16), main .quarters-split-example :nth-child(16), main .grid-example :nth-child(16), main .grid-mq-example :nth-child(16), main .row-example :nth-child(16), main .row-example-two :nth-child(16), main .column-example :nth-child(16) {
-      background: rgba(193, 96, 105, 0.625); }
-    main .golden-ratio-split-example :nth-child(17), main .golden-ratio-multi-row-example :nth-child(17), main .quarters-split-example :nth-child(17), main .grid-example :nth-child(17), main .grid-mq-example :nth-child(17), main .row-example :nth-child(17), main .row-example-two :nth-child(17), main .column-example :nth-child(17) {
-      background: rgba(193, 96, 105, 0.6); }
-    main .golden-ratio-split-example :nth-child(18), main .golden-ratio-multi-row-example :nth-child(18), main .quarters-split-example :nth-child(18), main .grid-example :nth-child(18), main .grid-mq-example :nth-child(18), main .row-example :nth-child(18), main .row-example-two :nth-child(18), main .column-example :nth-child(18) {
-      background: rgba(193, 96, 105, 0.575); }
-    main .golden-ratio-split-example :nth-child(19), main .golden-ratio-multi-row-example :nth-child(19), main .quarters-split-example :nth-child(19), main .grid-example :nth-child(19), main .grid-mq-example :nth-child(19), main .row-example :nth-child(19), main .row-example-two :nth-child(19), main .column-example :nth-child(19) {
-      background: rgba(193, 96, 105, 0.55); }
-    main .golden-ratio-split-example :nth-child(20), main .golden-ratio-multi-row-example :nth-child(20), main .quarters-split-example :nth-child(20), main .grid-example :nth-child(20), main .grid-mq-example :nth-child(20), main .row-example :nth-child(20), main .row-example-two :nth-child(20), main .column-example :nth-child(20) {
-      background: rgba(193, 96, 105, 0.525); }
-    main .golden-ratio-split-example :nth-child(21), main .golden-ratio-multi-row-example :nth-child(21), main .quarters-split-example :nth-child(21), main .grid-example :nth-child(21), main .grid-mq-example :nth-child(21), main .row-example :nth-child(21), main .row-example-two :nth-child(21), main .column-example :nth-child(21) {
-      background: rgba(193, 96, 105, 0.5); }
-    main .golden-ratio-split-example :nth-child(22), main .golden-ratio-multi-row-example :nth-child(22), main .quarters-split-example :nth-child(22), main .grid-example :nth-child(22), main .grid-mq-example :nth-child(22), main .row-example :nth-child(22), main .row-example-two :nth-child(22), main .column-example :nth-child(22) {
-      background: rgba(193, 96, 105, 0.475); }
-    main .golden-ratio-split-example :nth-child(23), main .golden-ratio-multi-row-example :nth-child(23), main .quarters-split-example :nth-child(23), main .grid-example :nth-child(23), main .grid-mq-example :nth-child(23), main .row-example :nth-child(23), main .row-example-two :nth-child(23), main .column-example :nth-child(23) {
-      background: rgba(193, 96, 105, 0.45); }
-    main .golden-ratio-split-example :nth-child(24), main .golden-ratio-multi-row-example :nth-child(24), main .quarters-split-example :nth-child(24), main .grid-example :nth-child(24), main .grid-mq-example :nth-child(24), main .row-example :nth-child(24), main .row-example-two :nth-child(24), main .column-example :nth-child(24) {
-      background: rgba(193, 96, 105, 0.425); }
   @media (min-width: 36em) {
     main .golden-ratio-split-example {
       height: auto;
