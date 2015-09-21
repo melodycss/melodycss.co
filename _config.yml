@@ -5,5 +5,5 @@ rdiscount:
   extensions: [smart]
 highlighter: pygments
 permalink: /:title
-exclude: ['.gitignore', 'melody.sublime-project', 'melody.sublime-workspace', 'node_modules', '.sass_cache', '.git', 'Gemfile', 'Gemfile.lock', 'src', 'gulpfile.js', 'README.md', 'gulpfile.js', 'package.json']
+exclude: ['.gitignore', 'melody.sublime-project', 'melody.sublime-workspace', '/.sass_cache', '/node_modules', '/gulpfile.js', '/assets/src', '/package.json', '.git', '.gitignore', 'temp', '/report', '/reports', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'nightwatch.json', 'README.md']
 encoding: utf-8
