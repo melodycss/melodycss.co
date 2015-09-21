@@ -1,991 +1,798 @@
 .highlight .hll {
-  background-color: #4f5b66;
-}
+  background-color: #4f5b66; }
 
 .highlight pre {
   background: #2b303b;
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 .highlight .c {
-  color: #65737e;
-}
+  color: #65737e; }
 
 /* Comment */
 .highlight .err {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Error */
 .highlight .k {
-  color: #b48ead;
-}
+  color: #b48ead; }
 
 /* Keyword */
 .highlight .l {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal */
 .highlight .n {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Name */
 .highlight .o {
-  color: #96b5b4;
-}
+  color: #96b5b4; }
 
 /* Operator */
 .highlight .p {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Punctuation */
 .highlight .cm {
-  color: #65737e;
-}
+  color: #65737e; }
 
 /* Comment.Multiline */
 .highlight .cp {
-  color: #65737e;
-}
+  color: #65737e; }
 
 /* Comment.Preproc */
 .highlight .c1 {
-  color: #65737e;
-}
+  color: #65737e; }
 
 /* Comment.Single */
 .highlight .cs {
-  color: #65737e;
-}
+  color: #65737e; }
 
 /* Comment.Special */
 .highlight .gd {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Generic.Deleted */
 .highlight .ge {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /* Generic.Emph */
 .highlight .gh {
   color: #eff1f5;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Generic.Heading */
 .highlight .gi {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Generic.Inserted */
 .highlight .gp {
   color: #65737e;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Generic.Prompt */
 .highlight .gs {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Generic.Strong */
 .highlight .gu {
   color: #96b5b4;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Generic.Subheading */
 .highlight .kc {
-  color: #b48ead;
-}
+  color: #b48ead; }
 
 /* Keyword.Constant */
 .highlight .kd {
-  color: #b48ead;
-}
+  color: #b48ead; }
 
 /* Keyword.Declaration */
 .highlight .kn {
-  color: #96b5b4;
-}
+  color: #96b5b4; }
 
 /* Keyword.Namespace */
 .highlight .kp {
-  color: #b48ead;
-}
+  color: #b48ead; }
 
 /* Keyword.Pseudo */
 .highlight .kr {
-  color: #b48ead;
-}
+  color: #b48ead; }
 
 /* Keyword.Reserved */
 .highlight .kt {
-  color: #ebcb8b;
-}
+  color: #ebcb8b; }
 
 /* Keyword.Type */
 .highlight .ld {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.Date */
 .highlight .m {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.Number */
 .highlight .s {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String */
 .highlight .na {
-  color: #8fa1b3;
-}
+  color: #8fa1b3; }
 
 /* Name.Attribute */
 .highlight .nb {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #ebcb8b;
-}
+  color: #ebcb8b; }
 
 /* Name.Class */
 .highlight .no {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Name.Constant */
 .highlight .nd {
-  color: #96b5b4;
-}
+  color: #96b5b4; }
 
 /* Name.Decorator */
 .highlight .ni {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Name.Entity */
 .highlight .ne {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Name.Exception */
 .highlight .nf {
-  color: #8fa1b3;
-}
+  color: #8fa1b3; }
 
 /* Name.Function */
 .highlight .nl {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Name.Label */
 .highlight .nn {
-  color: #ebcb8b;
-}
+  color: #ebcb8b; }
 
 /* Name.Namespace */
 .highlight .nx {
-  color: #8fa1b3;
-}
+  color: #8fa1b3; }
 
 /* Name.Other */
 .highlight .py {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Name.Property */
 .highlight .nt {
-  color: #96b5b4;
-}
+  color: #96b5b4; }
 
 /* Name.Tag */
 .highlight .nv {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Name.Variable */
 .highlight .ow {
-  color: #96b5b4;
-}
+  color: #96b5b4; }
 
 /* Operator.Word */
 .highlight .w {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Text.Whitespace */
 .highlight .mf {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.Number.Float */
 .highlight .mh {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.Number.Hex */
 .highlight .mi {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.Number.Integer */
 .highlight .mo {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.Number.Oct */
 .highlight .sb {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Backtick */
 .highlight .sc {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Literal.String.Char */
 .highlight .sd {
-  color: #65737e;
-}
+  color: #65737e; }
 
 /* Literal.String.Doc */
 .highlight .s2 {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Double */
 .highlight .se {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Heredoc */
 .highlight .si {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.String.Interpol */
 .highlight .sx {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Other */
 .highlight .sr {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Regex */
 .highlight .s1 {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Single */
 .highlight .ss {
-  color: #a3be8c;
-}
+  color: #a3be8c; }
 
 /* Literal.String.Symbol */
 .highlight .bp {
-  color: #eff1f5;
-}
+  color: #eff1f5; }
 
 /* Name.Builtin.Pseudo */
 .highlight .vc {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Name.Variable.Class */
 .highlight .vg {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Name.Variable.Global */
 .highlight .vi {
-  color: #bf616a;
-}
+  color: #bf616a; }
 
 /* Name.Variable.Instance */
 .highlight .il {
-  color: #d08770;
-}
+  color: #d08770; }
 
 /* Literal.Number.Integer.Long */
 /* Fonts
- * =========================== */
+  @mixin ========================== */
 /* Grid
- * =========================== */
+  @mixin ========================== */
 /* Breakpoints
- * =========================== */
+  @mixin ========================== */
 /* Colors
- * =========================== */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-main, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+  @mixin ========================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
-  display: block;
-}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 html {
-  font: 100%/1.5em "ff-meta-serif-web-pro", "Tisa OT", "Georgia", "Times New Roman", serif;
-}
+  font: 100%/1.5em "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif; }
 
 body {
   line-height: 1.5em;
-  color: #55443D;
-}
+  color: #55443D; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-meta-serif-web-pro", "Tisa OT", "Georgia", "Times New Roman", serif;
-  font-weight: 600;
-}
+  font-family: "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif;
+  font-weight: 600; }
 
 h1 {
   font-size: 3em;
   line-height: 1em;
-  margin-bottom: 0.5em;
-}
+  margin-bottom: .5em; }
 
 h2 {
   font-size: 2.25em;
   line-height: 1.35em;
-  margin-bottom: 0.66667em;
-}
+  margin-bottom: .66667em; }
 
 h3 {
   font-size: 1.5em;
   line-height: 1em;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
 
 h4 {
   font-size: 1.3125em;
   line-height: 1.14286em;
-  margin-bottom: 1.14286em;
-}
+  margin-bottom: 1.14286em; }
 
 h5 {
   font-size: 1.125em;
   line-height: 1.35em;
-  margin-bottom: 1.33333em;
-}
+  margin-bottom: 1.33333em; }
 
 h6 {
   font-size: 1em;
   line-height: 1.5em;
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
 
 p, ul, ol, dl, blockquote {
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
 
 ul {
-  list-style: disc inside;
-}
+  list-style: disc inside; }
 
 ol {
-  list-style: decimal inside;
-}
+  list-style: decimal inside; }
 
 ul ul, ol ul {
   list-style: circle inside;
   margin-bottom: 0;
-  margin-left: 1.5em;
-}
+  margin-left: 1.5em; }
 ul ol, ol ol {
   list-style: lower-roman inside;
   margin-bottom: 0;
-  margin-left: 1.5em;
-}
+  margin-left: 1.5em; }
 
 em {
-  font-style: italic;
-}
+  font-style: italic; }
 
 strong {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 small {
-  font-size: 0.75em;
-  line-height: 0.5em;
-}
+  font-size: .75em;
+  line-height: .5em; }
 
 hr {
   height: 0;
   margin: -webkit-calc(3em - 1px) auto 3em;
   margin: calc(3em - 1px) auto 3em;
   border: solid rgba(85, 68, 61, 0.05);
-  border-width: 0 0 1px;
-}
+  border-width: 0 0 1px; }
 
 blockquote, figcaption {
-  display: block;
-}
-blockquote cite, figcaption cite {
-  display: block;
-  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-blockquote p:last-of-type, figcaption p:last-of-type {
-  margin: 0;
-}
+  display: block; }
+  blockquote cite, figcaption cite {
+    display: block;
+    font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    font-style: normal; }
+  blockquote p:last-of-type, figcaption p:last-of-type {
+    margin: 0; }
 
 blockquote:not(.pull) {
   margin: 0 0 1.5em;
   font-weight: 300;
-  font-style: italic;
-}
+  font-style: italic; }
 blockquote.pull {
   font-size: 2.25em;
-  margin: 0 0 0.66667em;
+  margin: 0 0 .66667em;
   line-height: 1.35em;
   font-weight: 200;
-  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-blockquote.pull cite {
-  font-size: 0.44444em;
-}
+  font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  blockquote.pull cite {
+    font-size: .44444em; }
 
 figure {
-  max-width: 100%;
-}
-figure img {
-  max-width: 100%;
-}
-figure figcaption {
-  font-style: italic;
-  font-size: 0.75em;
-}
-figure.full-width {
-  width: 100%;
-}
-figure.full-width img {
-  margin: 0 -1.5em 0;
-  max-width: -webkit-calc(100% + 3em);
-  max-width: calc(100% + 3em);
-  width: -webkit-calc(100% + 3em);
-  width: calc(100% + 3em);
-}
+  max-width: 100%; }
+  figure img {
+    max-width: 100%; }
+  figure figcaption {
+    font-style: italic;
+    font-size: .75em; }
+  figure.full-width {
+    width: 100%; }
+    figure.full-width img {
+      margin: 0 -3em 0;
+      max-width: -webkit-calc(100% + 6em);
+      max-width: calc(100% + 6em);
+      width: -webkit-calc(100% + 6em);
+      width: calc(100% + 6em); }
 
 .center {
-  text-align: center;
-}
+  text-align: center; }
 
 .lalign {
-  text-align: left;
-}
+  text-align: left; }
 
 .ralign {
-  text-align: right;
-}
+  text-align: right; }
 
 pre {
-  font-size: 0.875em;
-  line-height: 1.71429em;
-  background: rgba(85, 68, 61, 0.05);
-  margin: 0 -1.71429em 1.71429em;
-  padding: 1.71429em;
-}
+  margin: 0 0 1.5em; }
 
 code {
-  font-family: "Source Code Pro", "Courier New", "Inconsolata", monospace;
-  line-height: 0;
-}
+  font-family: "Nitti WM2", "Courier New", "Inconsolata", monospace;
+  line-height: 0; }
 
 .container {
   width: 100%;
   max-width: 42em;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 /* Colors
- * ============================== */
+   @mixin ============================= */
 /* Layout
- * ============================== */
+   @mixin ============================= */
 a, a:visited {
-  color: #65737F;
-}
+  color: #65737F; }
 
 body {
-  color: #2B303B;
-}
-@media (min-width: 36em) {
-  body {
-    height: auto;
-    overflow: hidden;
-  }
-  body > :nth-child(2n+1), body > :nth-child(2n) {
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-  }
-  body > :nth-child(2n+1) {
-    width: 27.63958%;
-  }
-  body > :nth-child(2n) {
-    width: 72.36042%;
-  }
-}
-body .logo, body .top, body main {
-  padding: 1.5em;
-}
+  color: #2B303B; }
+  @media (min-width: 36em) {
+    body {
+      height: auto;
+      overflow: hidden; }
+      body > :nth-child(2n+1), body > :nth-child(2n) {
+        display: inline-block;
+        vertical-align: top;
+        float: left; }
+      body > :nth-child(2n+1) {
+        width: 18.97533%; }
+      body > :nth-child(2n) {
+        width: 81.02467%; } }
 
 .logo {
+  background: #C16069; }
+  .logo h2 {
+    margin-bottom: 0; }
+    .logo h2 a {
+      color: #eff1f5;
+      text-decoration: none; }
+
+.sidebar {
   background: #C16069;
-}
-.logo h2 {
-  margin-bottom: 0;
-}
-.logo h2 a {
   color: #eff1f5;
-  text-decoration: none;
-}
-
-.top {
-  background: rgba(193, 96, 105, 0.95);
-  color: white;
-}
-.top h1 {
-  margin-bottom: 0;
-  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-@media (min-width: 64em) {
-  .sidebar {
-    height: auto;
-    overflow: hidden;
-  }
-  .sidebar > :nth-child(2n+1), .sidebar > :nth-child(2n) {
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-  }
-  .sidebar > :nth-child(2n+1) {
-    width: 38.1971%;
-  }
-  .sidebar > :nth-child(2n) {
-    width: 61.8029%;
-  }
-}
-.sidebar a {
-  color: inherit;
-  display: block;
-  margin-bottom: 1.5em;
-  text-decoration: none;
-  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
-}
-.sidebar a.current {
-  text-decoration: underline;
-}
-.sidebar .primary, .sidebar .secondary {
-  padding: 1.5em;
-  height: -webkit-calc(100vh - 6em);
-  height: calc(100vh - 6em);
-}
-.sidebar .primary {
-  background: #2B303B;
-  color: #eff1f5;
-}
-@media (max-width: 64em) {
-  .sidebar .primary {
-    -webkit-transform: translate(-100%, 0);
-    -ms-transform: translate(-100%, 0);
-    transform: translate(-100%, 0);
-    -webkit-transition: -webkit-transform 0.25s ease-in-out-quad;
-    transition: transform 0.25s ease-in-out-quad;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  .sidebar .primary.visible {
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-}
-.sidebar .secondary {
-  background: #333D46;
-  color: #eff1f5;
-}
+  height: 100vh;
+  padding: 3em 1.5em; }
+  .sidebar ul {
+    margin-left: 0; }
+  .sidebar li {
+    list-style: none;
+    margin-bottom: 0; }
+  .sidebar .primary > ul > li {
+    margin-bottom: 1.5em; }
+    .sidebar .primary > ul > li > a {
+      text-transform: uppercase;
+      font-size: .875em;
+      font-weight: 700; }
+  .sidebar a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400; }
+    .sidebar a.current {
+      text-decoration: underline; }
+  @media (max-width: 64em) {
+    .sidebar .primary {
+      -webkit-transform: translate(-100%, 0);
+          -ms-transform: translate(-100%, 0);
+              transform: translate(-100%, 0);
+      -webkit-transition: -webkit-transform 0.25s ease-in-out-quad;
+              transition: transform 0.25s ease-in-out-quad;
+      position: fixed;
+      top: 0;
+      left: 0; }
+      .sidebar .primary.visible {
+        -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+                transform: translate(0, 0); } }
 
 main {
-  height: -webkit-calc(100vh - 6em);
-  height: calc(100vh - 6em);
+  height: 100vh;
   overflow: auto;
-}
-main pre {
-  margin: 0 -1.71429em 3.42857em -2.14286em;
-  padding: 1.71429em 1.71429em 1.71429em 2.14286em;
-}
-main .dev-message {
-  height: auto;
-  overflow: hidden;
-  background: #ECCC87;
-  margin: -1.5em -1.5em 1.5em -1.875em;
-  padding: 1.5em 1.5em 1.5em 1.875em;
-  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
-}
-main .dev-message p {
-  font-size: 0.875em;
-  line-height: 1.71429em;
-  margin-bottom: 1.71429em;
-}
-main .dev-message p:last-of-type {
-  margin: 0;
-}
-main .container {
-  float: left;
-}
-main .doc-section {
-  padding: 1.5em 0;
-}
-main .doc-section .split-note,
-main .doc-section .split-code {
-  margin: 0 -1.5em 3em -1.875em;
-  padding: 1.5em 1.5em 1.5em 1.875em;
-}
-@media (min-width: 36em) {
-  main .doc-section .split-note,
-  main .doc-section .split-code {
+  padding: 3em; }
+  main pre {
+    margin: 0 -3em 3em;
+    padding: 1.5em 3em 1.5em 3em; }
+  main .dev-message {
     height: auto;
     overflow: hidden;
-  }
-  main .doc-section .split-note > :nth-child(2n+1), main .doc-section .split-note > :nth-child(2n),
-  main .doc-section .split-code > :nth-child(2n+1),
-  main .doc-section .split-code > :nth-child(2n) {
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-  }
-  main .doc-section .split-note > :nth-child(2n+1),
-  main .doc-section .split-code > :nth-child(2n+1) {
-    width: 12.73237%;
-  }
-  main .doc-section .split-note > :nth-child(2n),
-  main .doc-section .split-code > :nth-child(2n) {
-    width: 87.26763%;
-  }
-}
-main .doc-section .split-note + .split-code, main .doc-section .split-note + .split-note,
-main .doc-section .split-code + .split-code,
-main .doc-section .split-code + .split-note {
-  margin-top: -3em;
-}
-main .doc-section .split-note h6,
-main .doc-section .split-code h6 {
-  font-family: "jaf-bernino-sans", "Lato", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 0.875em;
-  font-weight: 600;
-}
-main .doc-section .split-note {
-  background: rgba(43, 48, 59, 0.05);
-  color: #2B303B;
-}
-main .doc-section .split-note pre {
-  margin: 0 -1.71429em 1.71429em;
-  padding: 1.71429em 1.71429em 1.71429em;
-}
-main .doc-section .split-note pre:last-of-type {
-  margin-bottom: -1.5em;
-}
-main .doc-section .split-code {
-  background: #2B303B;
-}
-main .doc-section .split-code .highlight {
-  overflow-x: auto;
-}
-main .doc-section .split-code .highlight, main .doc-section .split-code pre {
-  background: transparent;
-}
-main .doc-section .split-code pre {
-  padding: 0 1.5em;
-  margin: 0;
-}
-main .doc-section .split-code h6 {
-  color: #eff1f5;
-}
-@media (min-width: 36em) {
-  main .golden-ratio-split-example {
+    background: #ECCC87;
+    margin: -3em -3em 3em;
+    padding: 1.5em 3em;
+    font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 300; }
+    main .dev-message p {
+      line-height: 1.71429em;
+      margin-bottom: 1.71429em; }
+    main .dev-message p:last-of-type {
+      margin: 0; }
+  main .container {
+    float: left; }
+  main .doc-section {
+    padding: 1.5em 0; }
+    main .doc-section .split-note, main .doc-section .split-code {
+      margin: 0 -3em 3em;
+      padding: 3em; }
+      @media (min-width: 36em) {
+        main .doc-section .split-note, main .doc-section .split-code {
+          height: auto;
+          overflow: hidden; }
+          main .doc-section .split-note > :nth-child(2n+1), main .doc-section .split-note > :nth-child(2n), main .doc-section .split-code > :nth-child(2n+1), main .doc-section .split-code > :nth-child(2n) {
+            display: inline-block;
+            vertical-align: top;
+            float: left; }
+          main .doc-section .split-note > :nth-child(2n+1), main .doc-section .split-code > :nth-child(2n+1) {
+            width: 12.73237%; }
+          main .doc-section .split-note > :nth-child(2n), main .doc-section .split-code > :nth-child(2n) {
+            width: 87.26763%; } }
+      main .doc-section .split-note + .split-code, main .doc-section .split-note + .split-note, main .doc-section .split-code + .split-code, main .doc-section .split-code + .split-note {
+        margin-top: -6em; }
+      main .doc-section .split-note h6, main .doc-section .split-code h6 {
+        font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-size: .875em;
+        font-weight: 600; }
+    main .doc-section .split-note {
+      background: rgba(43, 48, 59, 0.05);
+      color: #2B303B; }
+      main .doc-section .split-note pre:last-of-type {
+        margin-bottom: -3em; }
+    main .doc-section .split-code {
+      background: #2B303B; }
+      main .doc-section .split-code .highlight {
+        overflow-x: auto; }
+      main .doc-section .split-code .highlight, main .doc-section .split-code pre {
+        background: transparent; }
+      main .doc-section .split-code pre {
+        padding: 0 1.5em;
+        margin: 0; }
+      main .doc-section .split-code h6 {
+        color: #eff1f5; }
+  main .golden-ratio-split-example, main .golden-ratio-multi-row-example, main .quarters-split-example, main .grid-example, main .grid-mq-example, main .row-example, main .row-example-two, main .column-example {
+    margin-bottom: 1.5em; }
+    main .golden-ratio-split-example *, main .golden-ratio-multi-row-example *, main .quarters-split-example *, main .grid-example *, main .grid-mq-example *, main .row-example *, main .row-example-two *, main .column-example * {
+      color: #eff1f5;
+      text-align: center;
+      padding: 1.5em; }
+    main .golden-ratio-split-example :nth-child(1), main .golden-ratio-multi-row-example :nth-child(1), main .quarters-split-example :nth-child(1), main .grid-example :nth-child(1), main .grid-mq-example :nth-child(1), main .row-example :nth-child(1), main .row-example-two :nth-child(1), main .column-example :nth-child(1) {
+      background: rgba(193, 96, 105, 1); }
+    main .golden-ratio-split-example :nth-child(2), main .golden-ratio-multi-row-example :nth-child(2), main .quarters-split-example :nth-child(2), main .grid-example :nth-child(2), main .grid-mq-example :nth-child(2), main .row-example :nth-child(2), main .row-example-two :nth-child(2), main .column-example :nth-child(2) {
+      background: rgba(193, 96, 105, 0.975); }
+    main .golden-ratio-split-example :nth-child(3), main .golden-ratio-multi-row-example :nth-child(3), main .quarters-split-example :nth-child(3), main .grid-example :nth-child(3), main .grid-mq-example :nth-child(3), main .row-example :nth-child(3), main .row-example-two :nth-child(3), main .column-example :nth-child(3) {
+      background: rgba(193, 96, 105, 0.95); }
+    main .golden-ratio-split-example :nth-child(4), main .golden-ratio-multi-row-example :nth-child(4), main .quarters-split-example :nth-child(4), main .grid-example :nth-child(4), main .grid-mq-example :nth-child(4), main .row-example :nth-child(4), main .row-example-two :nth-child(4), main .column-example :nth-child(4) {
+      background: rgba(193, 96, 105, 0.925); }
+    main .golden-ratio-split-example :nth-child(5), main .golden-ratio-multi-row-example :nth-child(5), main .quarters-split-example :nth-child(5), main .grid-example :nth-child(5), main .grid-mq-example :nth-child(5), main .row-example :nth-child(5), main .row-example-two :nth-child(5), main .column-example :nth-child(5) {
+      background: rgba(193, 96, 105, 0.9); }
+    main .golden-ratio-split-example :nth-child(6), main .golden-ratio-multi-row-example :nth-child(6), main .quarters-split-example :nth-child(6), main .grid-example :nth-child(6), main .grid-mq-example :nth-child(6), main .row-example :nth-child(6), main .row-example-two :nth-child(6), main .column-example :nth-child(6) {
+      background: rgba(193, 96, 105, 0.875); }
+    main .golden-ratio-split-example :nth-child(7), main .golden-ratio-multi-row-example :nth-child(7), main .quarters-split-example :nth-child(7), main .grid-example :nth-child(7), main .grid-mq-example :nth-child(7), main .row-example :nth-child(7), main .row-example-two :nth-child(7), main .column-example :nth-child(7) {
+      background: rgba(193, 96, 105, 0.85); }
+    main .golden-ratio-split-example :nth-child(8), main .golden-ratio-multi-row-example :nth-child(8), main .quarters-split-example :nth-child(8), main .grid-example :nth-child(8), main .grid-mq-example :nth-child(8), main .row-example :nth-child(8), main .row-example-two :nth-child(8), main .column-example :nth-child(8) {
+      background: rgba(193, 96, 105, 0.825); }
+    main .golden-ratio-split-example :nth-child(9), main .golden-ratio-multi-row-example :nth-child(9), main .quarters-split-example :nth-child(9), main .grid-example :nth-child(9), main .grid-mq-example :nth-child(9), main .row-example :nth-child(9), main .row-example-two :nth-child(9), main .column-example :nth-child(9) {
+      background: rgba(193, 96, 105, 0.8); }
+    main .golden-ratio-split-example :nth-child(10), main .golden-ratio-multi-row-example :nth-child(10), main .quarters-split-example :nth-child(10), main .grid-example :nth-child(10), main .grid-mq-example :nth-child(10), main .row-example :nth-child(10), main .row-example-two :nth-child(10), main .column-example :nth-child(10) {
+      background: rgba(193, 96, 105, 0.775); }
+    main .golden-ratio-split-example :nth-child(11), main .golden-ratio-multi-row-example :nth-child(11), main .quarters-split-example :nth-child(11), main .grid-example :nth-child(11), main .grid-mq-example :nth-child(11), main .row-example :nth-child(11), main .row-example-two :nth-child(11), main .column-example :nth-child(11) {
+      background: rgba(193, 96, 105, 0.75); }
+    main .golden-ratio-split-example :nth-child(12), main .golden-ratio-multi-row-example :nth-child(12), main .quarters-split-example :nth-child(12), main .grid-example :nth-child(12), main .grid-mq-example :nth-child(12), main .row-example :nth-child(12), main .row-example-two :nth-child(12), main .column-example :nth-child(12) {
+      background: rgba(193, 96, 105, 0.725); }
+    main .golden-ratio-split-example :nth-child(13), main .golden-ratio-multi-row-example :nth-child(13), main .quarters-split-example :nth-child(13), main .grid-example :nth-child(13), main .grid-mq-example :nth-child(13), main .row-example :nth-child(13), main .row-example-two :nth-child(13), main .column-example :nth-child(13) {
+      background: rgba(193, 96, 105, 0.7); }
+    main .golden-ratio-split-example :nth-child(14), main .golden-ratio-multi-row-example :nth-child(14), main .quarters-split-example :nth-child(14), main .grid-example :nth-child(14), main .grid-mq-example :nth-child(14), main .row-example :nth-child(14), main .row-example-two :nth-child(14), main .column-example :nth-child(14) {
+      background: rgba(193, 96, 105, 0.675); }
+    main .golden-ratio-split-example :nth-child(15), main .golden-ratio-multi-row-example :nth-child(15), main .quarters-split-example :nth-child(15), main .grid-example :nth-child(15), main .grid-mq-example :nth-child(15), main .row-example :nth-child(15), main .row-example-two :nth-child(15), main .column-example :nth-child(15) {
+      background: rgba(193, 96, 105, 0.65); }
+    main .golden-ratio-split-example :nth-child(16), main .golden-ratio-multi-row-example :nth-child(16), main .quarters-split-example :nth-child(16), main .grid-example :nth-child(16), main .grid-mq-example :nth-child(16), main .row-example :nth-child(16), main .row-example-two :nth-child(16), main .column-example :nth-child(16) {
+      background: rgba(193, 96, 105, 0.625); }
+    main .golden-ratio-split-example :nth-child(17), main .golden-ratio-multi-row-example :nth-child(17), main .quarters-split-example :nth-child(17), main .grid-example :nth-child(17), main .grid-mq-example :nth-child(17), main .row-example :nth-child(17), main .row-example-two :nth-child(17), main .column-example :nth-child(17) {
+      background: rgba(193, 96, 105, 0.6); }
+    main .golden-ratio-split-example :nth-child(18), main .golden-ratio-multi-row-example :nth-child(18), main .quarters-split-example :nth-child(18), main .grid-example :nth-child(18), main .grid-mq-example :nth-child(18), main .row-example :nth-child(18), main .row-example-two :nth-child(18), main .column-example :nth-child(18) {
+      background: rgba(193, 96, 105, 0.575); }
+    main .golden-ratio-split-example :nth-child(19), main .golden-ratio-multi-row-example :nth-child(19), main .quarters-split-example :nth-child(19), main .grid-example :nth-child(19), main .grid-mq-example :nth-child(19), main .row-example :nth-child(19), main .row-example-two :nth-child(19), main .column-example :nth-child(19) {
+      background: rgba(193, 96, 105, 0.55); }
+    main .golden-ratio-split-example :nth-child(20), main .golden-ratio-multi-row-example :nth-child(20), main .quarters-split-example :nth-child(20), main .grid-example :nth-child(20), main .grid-mq-example :nth-child(20), main .row-example :nth-child(20), main .row-example-two :nth-child(20), main .column-example :nth-child(20) {
+      background: rgba(193, 96, 105, 0.525); }
+    main .golden-ratio-split-example :nth-child(21), main .golden-ratio-multi-row-example :nth-child(21), main .quarters-split-example :nth-child(21), main .grid-example :nth-child(21), main .grid-mq-example :nth-child(21), main .row-example :nth-child(21), main .row-example-two :nth-child(21), main .column-example :nth-child(21) {
+      background: rgba(193, 96, 105, 0.5); }
+    main .golden-ratio-split-example :nth-child(22), main .golden-ratio-multi-row-example :nth-child(22), main .quarters-split-example :nth-child(22), main .grid-example :nth-child(22), main .grid-mq-example :nth-child(22), main .row-example :nth-child(22), main .row-example-two :nth-child(22), main .column-example :nth-child(22) {
+      background: rgba(193, 96, 105, 0.475); }
+    main .golden-ratio-split-example :nth-child(23), main .golden-ratio-multi-row-example :nth-child(23), main .quarters-split-example :nth-child(23), main .grid-example :nth-child(23), main .grid-mq-example :nth-child(23), main .row-example :nth-child(23), main .row-example-two :nth-child(23), main .column-example :nth-child(23) {
+      background: rgba(193, 96, 105, 0.45); }
+    main .golden-ratio-split-example :nth-child(24), main .golden-ratio-multi-row-example :nth-child(24), main .quarters-split-example :nth-child(24), main .grid-example :nth-child(24), main .grid-mq-example :nth-child(24), main .row-example :nth-child(24), main .row-example-two :nth-child(24), main .column-example :nth-child(24) {
+      background: rgba(193, 96, 105, 0.425); }
+  @media (min-width: 36em) {
+    main .golden-ratio-split-example {
+      height: auto;
+      overflow: hidden; }
+      main .golden-ratio-split-example > :nth-child(2n+1), main .golden-ratio-split-example > :nth-child(2n) {
+        display: inline-block;
+        vertical-align: top;
+        float: left; }
+      main .golden-ratio-split-example > :nth-child(2n+1) {
+        width: 38.1971%; }
+      main .golden-ratio-split-example > :nth-child(2n) {
+        width: 61.8029%; } }
+  @media (min-width: 24em) {
+    main .golden-ratio-multi-row-example {
+      height: auto;
+      overflow: hidden; }
+      main .golden-ratio-multi-row-example > :nth-child(2n+1), main .golden-ratio-multi-row-example > :nth-child(2n) {
+        display: inline-block;
+        vertical-align: top;
+        float: left; }
+      main .golden-ratio-multi-row-example > :nth-child(2n+1) {
+        width: 27.63958%; }
+      main .golden-ratio-multi-row-example > :nth-child(2n) {
+        width: 72.36042%; } }
+  @media (min-width: 36em) {
+    main .quarters-split-example {
+      height: auto;
+      overflow: hidden; }
+      main .quarters-split-example > :nth-child(2n+1), main .quarters-split-example > :nth-child(2n) {
+        display: inline-block;
+        vertical-align: top;
+        float: left; }
+      main .quarters-split-example > :nth-child(2n+1) {
+        width: 75%; }
+      main .quarters-split-example > :nth-child(2n) {
+        width: 25%; } }
+  main .grid-example {
     height: auto;
-    overflow: hidden;
-  }
-  main .golden-ratio-split-example > :nth-child(2n+1), main .golden-ratio-split-example > :nth-child(2n) {
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-  }
-  main .golden-ratio-split-example > :nth-child(2n+1) {
-    width: 38.1971%;
-  }
-  main .golden-ratio-split-example > :nth-child(2n) {
-    width: 61.8029%;
-  }
-}
-@media (min-width: 24em) {
-  main .golden-ratio-multi-row-example {
+    overflow: hidden; }
+    main .grid-example > * {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      float: left; }
+      @media (min-width: 36em) {
+        main .grid-example > * {
+          width: 50%; } }
+      @media (min-width: 48em) {
+        main .grid-example > * {
+          width: 25%; } }
+  main .grid-mq-example {
     height: auto;
-    overflow: hidden;
-  }
-  main .golden-ratio-multi-row-example > :nth-child(2n+1), main .golden-ratio-multi-row-example > :nth-child(2n) {
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-  }
-  main .golden-ratio-multi-row-example > :nth-child(2n+1) {
-    width: 27.63958%;
-  }
-  main .golden-ratio-multi-row-example > :nth-child(2n) {
-    width: 72.36042%;
-  }
-}
-@media (min-width: 36em) {
-  main .quarters-split-example {
+    overflow: hidden; }
+    main .grid-mq-example > * {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      float: left; }
+      @media (min-width: 64em) {
+        main .grid-mq-example > * {
+          width: 33.33333%; } }
+      @media (min-width: 96em) {
+        main .grid-mq-example > * {
+          width: 16.66667%; } }
+  main .row-example {
     height: auto;
-    overflow: hidden;
-  }
-  main .quarters-split-example > :nth-child(2n+1), main .quarters-split-example > :nth-child(2n) {
-    display: inline-block;
-    vertical-align: top;
-    float: left;
-  }
-  main .quarters-split-example > :nth-child(2n+1) {
-    width: 75%;
-  }
-  main .quarters-split-example > :nth-child(2n) {
-    width: 25%;
-  }
-}
-main .grid-example {
-  height: auto;
-  overflow: hidden;
-}
-main .grid-example > * {
-  display: inline-block;
-  width: 100%;
-  vertical-align: top;
-  float: left;
-}
-@media (min-width: 36em) {
-  main .grid-example > * {
-    width: 50%;
-  }
-}
-@media (min-width: 48em) {
-  main .grid-example > * {
-    width: 25%;
-  }
-}
-main .grid-mq-example {
-  height: auto;
-  overflow: hidden;
-}
-main .grid-mq-example > * {
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
-  float: left;
-}
-@media (min-width: 64em) {
-  main .grid-mq-example > * {
-    width: 33.33333%;
-  }
-}
-@media (min-width: 96em) {
-  main .grid-mq-example > * {
-    width: 16.66667%;
-  }
-}
-main .golden-ratio-split-example,
-main .golden-ratio-multi-row-example,
-main .quarters-split-example,
-main .grid-example,
-main .grid-mq-example {
-  margin-bottom: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(1),
-main .golden-ratio-multi-row-example > :nth-child(1),
-main .quarters-split-example > :nth-child(1),
-main .grid-example > :nth-child(1),
-main .grid-mq-example > :nth-child(1) {
-  background: #c16069;
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(2),
-main .golden-ratio-multi-row-example > :nth-child(2),
-main .quarters-split-example > :nth-child(2),
-main .grid-example > :nth-child(2),
-main .grid-mq-example > :nth-child(2) {
-  background: rgba(193, 96, 105, 0.95);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(3),
-main .golden-ratio-multi-row-example > :nth-child(3),
-main .quarters-split-example > :nth-child(3),
-main .grid-example > :nth-child(3),
-main .grid-mq-example > :nth-child(3) {
-  background: rgba(193, 96, 105, 0.9);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(4),
-main .golden-ratio-multi-row-example > :nth-child(4),
-main .quarters-split-example > :nth-child(4),
-main .grid-example > :nth-child(4),
-main .grid-mq-example > :nth-child(4) {
-  background: rgba(193, 96, 105, 0.85);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(5),
-main .golden-ratio-multi-row-example > :nth-child(5),
-main .quarters-split-example > :nth-child(5),
-main .grid-example > :nth-child(5),
-main .grid-mq-example > :nth-child(5) {
-  background: rgba(193, 96, 105, 0.8);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(6),
-main .golden-ratio-multi-row-example > :nth-child(6),
-main .quarters-split-example > :nth-child(6),
-main .grid-example > :nth-child(6),
-main .grid-mq-example > :nth-child(6) {
-  background: rgba(193, 96, 105, 0.75);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(7),
-main .golden-ratio-multi-row-example > :nth-child(7),
-main .quarters-split-example > :nth-child(7),
-main .grid-example > :nth-child(7),
-main .grid-mq-example > :nth-child(7) {
-  background: rgba(193, 96, 105, 0.7);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(8),
-main .golden-ratio-multi-row-example > :nth-child(8),
-main .quarters-split-example > :nth-child(8),
-main .grid-example > :nth-child(8),
-main .grid-mq-example > :nth-child(8) {
-  background: rgba(193, 96, 105, 0.65);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(9),
-main .golden-ratio-multi-row-example > :nth-child(9),
-main .quarters-split-example > :nth-child(9),
-main .grid-example > :nth-child(9),
-main .grid-mq-example > :nth-child(9) {
-  background: rgba(193, 96, 105, 0.6);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(10),
-main .golden-ratio-multi-row-example > :nth-child(10),
-main .quarters-split-example > :nth-child(10),
-main .grid-example > :nth-child(10),
-main .grid-mq-example > :nth-child(10) {
-  background: rgba(193, 96, 105, 0.55);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(11),
-main .golden-ratio-multi-row-example > :nth-child(11),
-main .quarters-split-example > :nth-child(11),
-main .grid-example > :nth-child(11),
-main .grid-mq-example > :nth-child(11) {
-  background: rgba(193, 96, 105, 0.5);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-main .golden-ratio-split-example > :nth-child(12),
-main .golden-ratio-multi-row-example > :nth-child(12),
-main .quarters-split-example > :nth-child(12),
-main .grid-example > :nth-child(12),
-main .grid-mq-example > :nth-child(12) {
-  background: rgba(193, 96, 105, 0.45);
-  color: #eff1f5;
-  text-align: center;
-  padding: 1.5em;
-}
-
-/*# sourceMappingURL=6ba6e633-ecd9-4bf4-a324-2764e1d55fdb.sass.map */
+    overflow: hidden; }
+    main .row-example > * {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      float: left; }
+      @media (min-width: 36em) {
+        main .row-example > * {
+          width: 50%; } }
+      @media (min-width: 48em) {
+        main .row-example > * {
+          width: 33.33333%; } }
+    @media (max-width: 36em) {
+      main .row-example > :nth-child(-n+1) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .row-example > :nth-child(-n+2) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (min-width: 48em) {
+      main .row-example > :nth-child(-n+3) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (max-width: 36em) {
+      main .row-example > :nth-child(1n+1):nth-last-child(-n+1), main .row-example > :nth-child(1n+1):nth-last-child(-n+1) ~ * {
+        background: #57ADB9; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .row-example > :nth-child(2n+1):nth-last-child(-n+2), main .row-example > :nth-child(2n+1):nth-last-child(-n+2) ~ * {
+        background: #57ADB9; } }
+    @media (min-width: 48em) {
+      main .row-example > :nth-child(3n+1):nth-last-child(-n+3), main .row-example > :nth-child(3n+1):nth-last-child(-n+3) ~ * {
+        background: #57ADB9; } }
+  main .row-example-two {
+    height: auto;
+    overflow: hidden; }
+    main .row-example-two > * {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      float: left; }
+      @media (min-width: 36em) {
+        main .row-example-two > * {
+          width: 50%; } }
+      @media (min-width: 48em) {
+        main .row-example-two > * {
+          width: 33.33333%; } }
+    @media (max-width: 36em) {
+      main .row-example-two > :nth-child(2), main .row-example-two > :nth-child(2) ~ :nth-child(-n+2) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .row-example-two > :nth-child(3), main .row-example-two > :nth-child(3) ~ :nth-child(-n+4) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (min-width: 48em) {
+      main .row-example-two > :nth-child(4), main .row-example-two > :nth-child(4) ~ :nth-child(-n+6) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (max-width: 36em) {
+      main .row-example-two > :nth-last-child(-n+2):not(:nth-last-child(-n+1)) {
+        background: #57ADB9; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .row-example-two > :nth-last-child(-n+4):not(:nth-last-child(-n+2)) {
+        background: #57ADB9; } }
+    @media (min-width: 48em) {
+      main .row-example-two > :nth-last-child(-n+6):not(:nth-last-child(-n+3)) {
+        background: #57ADB9; } }
+  main .column-example {
+    height: auto;
+    overflow: hidden; }
+    main .column-example > * {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      float: left; }
+      @media (min-width: 36em) {
+        main .column-example > * {
+          width: 25%; } }
+      @media (min-width: 48em) {
+        main .column-example > * {
+          width: 16.66667%; } }
+    @media (max-width: 36em) {
+      main .column-example > :nth-child(2n+1) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .column-example > :nth-child(4n+1) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (min-width: 48em) {
+      main .column-example > :nth-child(6n+1) {
+        background: #ECCC87;
+        color: #2B303B; } }
+    @media (max-width: 36em) {
+      main .column-example > :nth-child(2n+3) {
+        background: #2B303B; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .column-example > :nth-child(4n+3) {
+        background: #2B303B; } }
+    @media (min-width: 48em) {
+      main .column-example > :nth-child(6n+3) {
+        background: #2B303B; } }
+    @media (max-width: 36em) {
+      main .column-example > :nth-child(2n) {
+        background: #57ADB9; } }
+    @media (min-width: 36em) and (max-width: 48em) {
+      main .column-example > :nth-child(4n) {
+        background: #57ADB9; } }
+    @media (min-width: 48em) {
+      main .column-example > :nth-child(6n) {
+        background: #57ADB9; } }

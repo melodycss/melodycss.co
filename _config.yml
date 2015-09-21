@@ -3,7 +3,7 @@ url: http://melodycss.co
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-pygments: true
+highlighter: pygments
 permalink: /:title
 exclude: ['.gitignore', 'melody.sublime-project', 'melody.sublime-workspace', 'node_modules', '.sass_cache', '.git', 'Gemfile', 'Gemfile.lock', 'src', 'gulpfile.js', 'README.md', 'gulpfile.js', 'package.json']
 encoding: utf-8

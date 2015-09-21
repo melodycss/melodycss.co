@@ -237,7 +237,7 @@ Where possible, they follow the HTML output by [Markdown](http://daringfireball.
 #### Full Width
 
 <figure class="full-width">
-  <img src="http://www.placecage.com/300/200" alt="Nicholas Cage">
+  <img src="http://www.placecage.com/800/300" alt="Nicholas Cage">
   <figcaption>
     <p>
       Check out that tash yo!
@@ -252,7 +252,7 @@ Where possible, they follow the HTML output by [Markdown](http://daringfireball.
 
 {% highlight html %}
 <figure class="full-width">
-  <img src="http://www.placecage.com/300/200" alt="Nicholas Cage">
+  <img src="http://www.placecage.com/800/300" alt="Nicholas Cage">
   <figcaption>
     <p>
       Check out that tash yo!

@@ -1,9 +1,9 @@
-melody.sublime-project
-melody.sublime-workspace
-Gemfile
+.sass-cache/
+node_modules/
+reports/
+_test/reports
+*.sublime*
+.htaccess
+*.un\~
+.gitignore\~
 Gemfile.lock
-assets/node_modules
-assets/.sass-cache
-_site/assets/node_modules
-_site/assets/.sass-cache
-_site/assets/src

@@ -1,48 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>{{ page.title }}</title>
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-
-      <link rel="stylesheet" href="/assets/dist/css/main.min.css">
-
-      <script type="text/javascript" src="//use.typekit.net/daj1asl.js"></script>
-      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
+  {% include head.html %}
   <body>
-    <hgroup class="logo">
-      <h2><a href="/">{{ site.name }}</a></h2>
-    </hgroup>
-
-    <header class="top">
-      <h1>{{ page.title }}</h1>
-    </header>
-
     <aside class="sidebar grid-child">
-      <nav class="primary">
-        <a href="/">Home</a>
-        <a href="/getting-started">Getting Started</a>
-        <a href="/typography">Typography</a>
-        <a href="/layouts">Layouts</a>
-      </nav>
+      <h4>Melody</h4>
 
-      <nav class="secondary">
-        {% for section in page.sections %}
-          <a href="#{{ section.slug }}">{{ section.title }}</a>
-        {% endfor %}
-      </nav>
+      {% include nav.html %}
     </aside>
 
     <main role="main">
-      <div class="dev-message">
-        <div class="container">
-          <p>This is version 2 of Melody, which is currently under active development. As such, both this site and certain features of the framework may be broken.</p>
+      {% include dev-message.html %}
 
-          <p>If you do find issues, please <a href="https://github.com/melodycss/melody/issues">raise a Github issue</a>.</p>
-        </div>
-      </div>
+      <header class="top">
+        <h1>{{ page.title }}</h1>
+      </header>
 
       <div class="container">
         {{ content }}
